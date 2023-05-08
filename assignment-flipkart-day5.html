@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flipkart</title>
+    <style>
+        #screen {
+            border: 1px solid black;
+            height: 700px;
+            width: 100%;
+        }
+
+        #navbar {
+            border: 1px solid black;
+            height: 50px;
+            background-color: blue;
+        }
+
+        #navbar-inner {
+            border: 1px solid black;
+            height: 50px;
+            width: 80%;
+            margin-left: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #logo {
+            border: 1px solid black;
+            height: 50px;
+            width: 10%;
+        }
+
+        #search {
+            border: 1px solid black;
+            height: 50px;
+            width: 40%;
+            display: flex;
+            justify-content: space-around;
+        }
+#search-icon{
+    background-color: white;
+    height: 20px;
+    width: 9%;
+    
+}
+        #inp {
+            width: 90%;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        #login {
+            border: 1px solid black;
+            height: 50px;
+            width: 10%;
+            text-align: center;
+            background-color: white;
+            color: blue;
+            font-size: 20px;
+        }
+
+        #bestseller {
+            border: 1px solid black;
+            height: 50px;
+            width: 10%;
+            text-align: center;
+            color: white;
+        }
+
+        #more {
+            border: 1px solid black;
+            height: 50px;
+            width: 10%;
+          
+        }
+        #more > div{
+            text-align: center;
+            background-color: white;
+            width: 50%;
+            margin-left: 20%;
+            background-color: blue;
+            color: white;
+        }
+
+        #shoplist {
+            border: 1px solid black;
+            height: 50px;
+            width: 10%;
+            display: flex;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div id="navbar-inner">
+                <div id="logo">
+                    <img  style="height: 20px; width: 100px; margin-left: 10px;"src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" />
+                </div>
+                <div id="search">
+                    <div id="inp"><input placeholder="Search for products brands and more">
+                        </input>
+                    </div>
+                    <div id="search-icon"><i  style=" margin-left: 10px;"class="fa-solid fa-magnifying-glass"></i></div>
+                </div>
+                <div id="login">Login</div>
+                <div id="bestseller"> Become a Seller</div>
+                <div id="more">
+                    <div>
+                        More<select style="outline: none; border: none; background-color: blue; color: white;"></select>
+                    </div>
+                </div>
+                <div id="shoplist">
+                    <div><i  style="color: white;" class="fa-solid fa-cart-shopping"></i></div>
+                    <div style="color: white; margin-left: 5px;">Cart</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
