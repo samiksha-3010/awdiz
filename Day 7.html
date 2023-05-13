@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date.11 may</title>
+    <style>
+        *{
+            
+        }
+        /* for box CSS */
+        .div-border-WH200px {
+            width: 200px;
+            height: 200px;
+            border: 1px solid red;
+            margin-left: 30px;
+            background-color: blue;
+
+        }
+
+        /* inner body  */
+        .div-inner-body {
+            border: 1px solid black;
+            width: 20%;
+            text-align: center;
+        }
+        /* child box CSS */
+        .small-box{
+            border: 1px solid black;
+             height: 100px; 
+             width: 100px;
+             background-color: green;
+             color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <!-- for border radius-->
+        <div class="div-inner-body">
+            <h2>border- radius</h2>
+            <!-- first box -->
+            <div class="div-border-WH200px" style=" border-radius: 50px;"></div>
+            <p>border-radius: 50px</p>
+            <!-- second box -->
+            <div class="div-border-WH200px" style=" border-radius: 100px 50px;"></div>
+            <p> border-radius: 100px 50px</p>
+            <!-- third box -->
+            <div class="div-border-WH200px" style=" border-radius: 100px 40px 30px;"></div>
+            <p>border-radius: 100px 40px 30px</p>
+            <!-- fourth box -->
+            <div class="div-border-WH200px" style="border-top-left-radius: 80px;"></div>
+            <p>border-top-left-radius: 80px</p>
+        </div>
+        <!-- for margin-->
+        <div class="div-inner-body">
+            <h2 style="">Margin</h2>
+            <!-- first box -->
+            <div class="div-border-WH200px" style="margin: 40px;"></div>
+            <p>margin: 40px</p>
+            <!-- second box -->
+            <div class="div-border-WH200px" style=" margin: 40px 30px;"></div>
+            <p>margin: 40px 30px</p>
+            <!-- third box -->
+            <div class="div-border-WH200px" style="margin: 40px 30px 60px;"></div>
+            <p>margin: 40px 30px 60px</p>
+            <!-- fourth box -->
+            <div class="div-border-WH200px" style="margin-bottom: 30px "></div>
+            <p>margin-bottom: 30px </p>
+        </div>
+        <!--for padding-->
+        <div class="div-inner-body">
+            <h2 style="">Padding</h2>
+            <!-- first box -->
+            <div class="div-border-WH200px" style="padding: 50px;">
+                <div class="small-box"> child</div>
+            </div>
+            <p>padding: 50px</p>
+            <!-- second box -->
+            <div class="div-border-WH200px" style=" padding: 30px 60px;">
+                <div class="small-box"> child</div>
+            </div>
+            <p>padding: 30px 60px</p>
+            <!-- third box -->
+            <div class="div-border-WH200px" style=" padding: 40px 80px 120px">
+                <div class="small-box"> child</div>
+            </div>
+            <p>padding: 40px 80px 120px</p>
+            <!-- fourth box -->
+            <div class="div-border-WH200px" style="padding-bottom: 150px">
+                <div class="small-box"> child</div>
+            </div>
+            <p>padding-bottom: 150px</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
