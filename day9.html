@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        #screen {
+            border: 3px solid black;
+            width: 100%;
+            height: 500px;
+        }
+
+        #top {
+            border: 1px solid black;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(19, 25, 33);
+           display: flex;
+           justify-content: space-around;
+           color: white;
+           
+
+        }
+        #logo{
+            border: 1px solid black;
+            width: 10%;
+           height : 50px;
+        }
+        #logo>img{
+            width: 150px;
+            height: 50px;
+        }
+        #location{
+            border: 1px solid black;
+            width: 10%;
+            height: 30px;
+            display: flex;
+            padding-bottom: 10px;
+            padding-top: 10px;
+
+
+        }
+        #location>i{
+            margin-top: 15px;
+
+        }
+        #location>div{
+            display: flex;
+            flex-direction: column;
+            margin-left: 2px;
+        }
+
+        #search{
+            border: 1px solid black;
+            width: 40%;
+            height: 50px;
+            display: flex;
+            
+            
+        }
+        #all{
+            border: 1px solid black;
+            height: 30px;
+            width: 50px;
+            padding: 10px;
+            display: flex;
+            
+            
+        }
+
+        #all>select{
+            margin-top: -5px;
+            border : none;
+            outline: none;
+        
+        }
+        #search-input{
+            width: 75%;
+        }
+        #search-icon{
+            border: 1px solid black;
+            height: 50px;
+            width: 12%;
+            background-color:rgb(243,181,102) ;
+
+        }
+        .fa-magnifying-glass{
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        #top-side-navbar-right{
+            border: 1px solid black;
+            width: 35%;
+            height: 50px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        #country{
+            border: 1px solid black;
+            width: 15%;
+            height: 30px;
+            padding: 10px 0px 10px 0px; 
+        }
+        
+        #country>img{
+            width: 20px;
+            height: 20px;
+
+        }
+        #country>select{
+            margin-top: -5px;
+            border:none;
+            outline: none;
+        }
+        #Acount-and-list{
+            border: 1px solid black;
+            width: 30%;
+            height: 30px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            
+
+        }
+
+        #Acount-and-list>select{
+            width: 20px;
+            margin-left: 130px;
+            margin-top: -15px;
+            border:none ;
+            outline: none;
+        }
+        #Returns-and-order{
+            border: 1px solid black;
+            width: 25%;
+            height: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        #Cart{
+            border: 1px solid black;
+            width: 25%;
+            height: 30px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+
+        }
+        #Cart>i{
+            margin-left: 30px;
+            margin-top:20px ;
+            
+
+        }
+        
+
+
+
+
+        #navbar {
+            border: 2px solid black;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(35, 47, 62);
+        }
+
+        #left {
+        /*...   border: 2px solid red;*/
+            width: 70%;
+            height: 40px;
+            color: white;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+          /*..  padding-top: 8px;*/
+
+        }
+        #left>span:hover{
+            border: 1px solid white;
+
+        }
+
+        #right {
+            border: 2px solid red;
+            width: 15%;
+            height: 40px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="top">
+            <div id="logo"> 
+            <img src="https://tse1.mm.bing.net/th?id=OIP.jrf82BrfUlBS15n-X3tTLgHaE9&pid=Api&rs=1&c=1&qlt=95&w=147&h=98"/>
+            </div>
+            <div id="location">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <small>Hello</small>
+                    <strong>Select Your Address</strong>
+                </div>
+            </div>
+            <div id="search">
+                <div id="all"> 
+                    ALL<select></select>
+                </div>
+                <input id="search-input" placeholder="Search Amazon.in"/>   
+                <div id="search-icon" >
+                    <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                </div>
+
+            </div>
+            <div id="top-side-navbar-right">
+                <div id="country">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/383px-Flag_of_India.svg.png"/>
+                    <strong>EN</strong>
+                    <select></select>
+                </div>
+                <div id="Acount-and-list">
+                    <small>Hello, Sign in</small>
+                    <strong>Acount & List </strong>
+                    <select></select>
+                </div> 
+                <div id="Returns-and-order">
+                    <small>Returns</small>
+                    <strong>& Orders</strong>
+                </div>
+                <div id="Cart">
+                    <i class="fa-solid fa-cart-shopping fa-2xl"></i>Cart 
+                </div>
+            </div>
+             </div>
+        <div id="navbar">
+            <div id="left">
+                <span> All</span>
+                <span>Amazon</span>
+                <span>Sell</span>
+                <span> Best Sellers</span>
+                <span> Today's Deal's</span>
+                <span> Mobiles</span>
+                <span> Customer Servis</span>
+                <span> Electronic</span>
+                <span> New Release</span>
+                <span> Prime</span>
+                <span>Home and kitchen</span>
+                <span>Amazon Pay</span>
+            </div>
+            <div id="right">
+                <img src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Air/400x39-SWM_NP._CB589429826_.jpg">
+
+            </div>
+            
+            <div></div>
+            </div>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
