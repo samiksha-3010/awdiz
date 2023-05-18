@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <style>
+        #parent{
+            border: 5px solid red;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            text-align: center; 
+
+        }
+        #parent > div{
+            width: 30%;
+            height: 200px;
+            border: 4px solid blue;
+
+
+        }
+        #parent > div >div{
+            border: 5px solid yellow;
+        }
+        @media screen and (max-width: 400px){
+        #parent{
+            border: 5px solid black;
+            flex-direction: column;
+            
+        }
+        #parent>div{
+            border: 5px solid green;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        #parent > div:nth-child(1){
+        border: 5px solid  red;
+        display: flex;
+        }
+        #parent > div  nth-child(1) >div{
+            width: 30%;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+</head>
+<body>
+    <div id="parent">
+        <div>
+            <div>A</div>
+            <div>B</div>
+            <div>C</div>
+            </div>
+
+        <div>
+            <div> 1-A</div>
+            <div> 2-B</div>
+                <div> 3-C</div>
+        </div>
+        <div>
+            <div> 1-A</div>
+            <div> 2-B</div>
+            <div> 3-C</div>
+        </div>
+    </div>
+</body>
+</html>
