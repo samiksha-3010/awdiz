@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github</title>
+    <style>
+        #screen {
+            border: 2px solid red;
+            width: 100%;
+            margin: auto;
+
+
+        }
+
+        #navbar {
+            border: 2px solid green;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        #navbar>div:nth-child(1) {
+            display: none;
+        }
+
+        #navbar>div:nth-child(2) {
+            border: 2px silid blue;
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #navbar>div:nth-child(2)>div:nth-child(1) {
+            border: 1px solid red;
+            width: 10%;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        #navbar>div:nth-child(2)>div:nth-child(2) {
+            width: 30%;
+            border: 1px solid red;
+        }
+
+        #navbar>div:nth-child(2)>div:nth-child(3) {
+            width: 45%;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+        }
+        input{
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+
+
+        #navbar>div:nth-child(3) {
+            border: 2px solid purple;
+            width: 10%;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        #body {
+            border: 2px solid green;
+            height: 400px;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 416px) {
+
+            #navbar>div:nth-child(1){
+                display: block ;
+            }
+            
+
+            #navbar>div:nth-child(2)>div:nth-child(2) {
+                display: none;
+            }
+
+            #navbar>div:nth-child(2)>div:nth-child(3) {
+                display: none;
+            }
+            #navbar>div:nth-child(3)>div:nth-child(2){
+                display: none;
+            }#navbar>div:nth-child(3)>div:nth-child(3){
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-brands fa-github fa-2xl"></i>
+                </div>
+                <div>
+                    <input type="text" placeholder="Search or jump to..">
+                </div>
+                <div>
+                    <p>Pull request</p>
+                    <p>Issuses</p>
+                    <p>Code space</p>
+                    <p>Marketplace</p>
+                    <p>Explore</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <div>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="body">
+    </div>
+</body>
+
+</html>
