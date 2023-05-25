@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single product</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+              font-family: sans-serif; 
+    -ms-text-size-adjust: 100%;
+    /* -webkit-text-size-adjust: 100%; */
+       }
+       #navbar{
+        width: 100%;
+        height: 60px;
+        border: 3px solid green;
+        display: flex;
+        justify-content: space-around;
+        
+    
+       }
+       #logo{
+        width: 20%;
+        height: 60px;
+        border: 3px solid black;
+        
+        }
+        #product{
+            width: 30%;
+            height: 60px;
+            border: 3px solid black;
+            display: flex;
+            justify-content: space-around;
+    
+        }
+        #search{
+            width: 20%;
+            height: 60px;
+            border: 3px solid black;
+        }
+       #logo2{
+        width: 25%;
+        height: 60px;
+        border: 3px solid black;
+        display: flex;
+        justify-content: space-around;
+       }
+        #body{
+            width: 100%;
+           /* height: 400px;*/
+           /* border: 2px solid red;*/
+        }
+        #body > div:nth-child(1){
+           border: 2px solid blue;
+            margin: 25px;
+        }
+       /* #body > div:nth-child(1) >p{
+            word-spacing: 5px;  
+        }*/
+        #body > div:nth-child(1) >p{
+        font-size: 12px;
+        }
+        #proinfo{
+            margin: 25px;
+            border: 2px solid green;
+            display: flex;
+            justify-content: space-between;
+        }
+        #proinfo > div:nth-child(1){
+            width: 57%;
+           /* height: 300px;*/
+            border: 5px solid red;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #proinfo > div:nth-child(1) > div{
+            width: 48%;
+            border: 2px solid blue;
+            height: 400px;
+        }
+       /* #proinfo > div:nth-child(1) > div > img{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 12px;
+
+        }*/
+
+        #proinfo > div:nth-child(2){
+            width: 40%;
+            height: 500px;
+           /* border: 5px solid black;*/
+        }
+        #right > div {
+            border-bottom: 1px solid black;
+            
+        }
+        #right > div:nth-child(1) >p{
+            margin-bottom: 15px;
+            color: #7f7f7f;
+
+        }
+        #right > div:nth-child(2) > div:nth-child(4){
+            display: flex;
+        }
+        #right > div:nth-child(2) > div:nth-child(4) >div {
+            height: 60px ;
+            width: 60px;
+            border: 3px solid black;
+            margin-left: 10px;
+            border-radius: 50%;
+            text-align: center;
+        }
+        #right > div:nth-child(2) > div:nth-child(4) >div:hover{
+            border: 1px solid rgb(220, 172, 172);
+        }
+        #right > div:nth-child(2) > div:nth-child(4) >div  >p{
+            margin-top: 15px;
+            font-size: 18px;
+            
+        }
+        #cart{
+            border: 1px solid black;
+            width:40%;
+            height: 40px;
+           margin-right: 20px;
+            background-color:#ff3e6c;
+            text-align: center;
+             color: white;
+             
+            
+             
+        }
+        #wishlist{
+            border: 1px solid black;
+            width: 35%;
+            height: 40px;
+            background-color: white;
+            text-align: center;
+
+        }
+        #chek{
+            border: 1px solid black;
+            width: 40%;
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            
+            <img style="height: 70px; width: 100px; margin-left: 20px;"  src="https://upload.wikimedia.org/wikipedia/en/d/d5/Myntra_logo.png"/>
+            
+            </div>
+        <div id="product">
+            <p>Men,s</p>
+            <p>Women,s</p>
+            <p>Kid,s</p>
+            <p>Home & Kitchen</p>
+            <p>Beauty</p>
+            <p>Studio</p>
+            </div>
+        <div id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="searh product and brand"/>
+            </div>
+        <div id="logo2">
+            <div>
+                <i class="fa-regular fa-user fa-2xl"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-bag-shopping fa-2xl"></i>
+            </div>
+            <div>
+                <i class="fa-regular fa-star fa-2xl"></i>
+            </div>
+        
+        </div>
+    </div>
+    <div id="body">
+        <div>
+            <p> Home  Clothing <b>Shirts  Formal</b> Shirts For Men</p>
+            <h4>Formal Shirts For Men</h4>
+               <p> - 15335 items</p>
+        </div>
+        <div id="proinfo">
+            <div>
+                <div>1
+                    <img src="https://www.myntra.com/shirts/allen-solly/allen-solly-men-slim-fit-windowpane-checked-formal-cotton-shirt/21417882/buy"/>
+                </div>
+                 <div>2 
+                    <img src="https://www.myntra.com/shirts/allen-solly/allen-solly-men-slim-fit-windowpane-checked-formal-tton-shirt/21417882/buy"/>
+                 </div> 
+                 <div>3
+                   
+                    <img src="https://www.myntra.com/shirts/allen-solly/allen-solly-men-slim-fit-windowpane-checked-formal-tton-shirt/21417882/buy"/>
+                 
+                 </div>
+                <div>
+                    
+                    <img src="https://www.myntra.com/shirts/allen-solly/allen-solly-men-slim-fit-windowpane-checked-formal-tton-shirt/21417882/buy"/>4</div>
+                <div>5
+                    
+                    <img src="https://www.myntra.com/shirts/allen-solly/allen-solly-men-slim-fit-windowpane-checked-formal-tton-shirt/21417882/buy"/>
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <h2> Louis Philippe Sport </h2>
+                    <p> Polo Collar T-shirt </p>
+                </div>
+                <div>
+                     <h2>₹974 MRP ₹1499(35% OFF) </h2>
+                    <p> inclusive of all taxes
+
+                    </p>
+                    <h3> SELECT SIZESIZE CHART
+
+                    </h3>
+                    <div>
+                        <div> <p> XS </p></div>
+                        <div> <p>S </p></div>
+                        <div> <p>M</p></div>
+                        <div> <p>L</p></div>
+                        <div> <p>XL</p></div>
+                    </div>
+                    <div>
+                        <div id="cart"> 
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            ADD TO CART</div>
+                        <div id="wishlist">
+                            <i class="fa-regular fa-star"></i>
+                            WISHLIST
+                        </div>
+                    </div>
+            
+                </div>
+                <div>
+                    <h4>DELIVERY OPTIONS 
+                        <i class="fa-solid fa-truck"></i>
+                    </h4>
+                    <div id="chek">
+                        <small>Enter Pincode</p><strong>Chek</strong></small>
+
+                         </div>
+                         <small>Please enter PIN code to check delivery time & Pay on Delivery Availabie </small>
+                         <small>100% Original Products</small>
+                        
+                        <small>Pay on delivery might be available</small>
+                        
+                        <small> Easy 14 days returns and exchanges</small>
+                        
+                        <small> Try & Buy might be available</small>
+                
+
+                        <h4>BEST OFFERS </h4>
+
+                        <h4> BEST OFFERS  : 812:</h4>
+                     <ul>
+                        <li>Applicable on: Orders above Rs. 1199 (only on first purchase)</li>
+                        <li>Coupon code: MYNTRA200</li>
+                        <li>Coupon Discount: Rs. 162 off (check cart for final savings)
+                        </li>
+                     </ul>
+                      <h4>View Eligible Products</h4>
+                      <h4>View Eligible Products</h4>
+                      <ul>
+                        <li>Min Spend Rs 1,000. Available only on Android Devices.</li>
+                      </ul>
+                      <h4>Terms & Condition</h4>
+                      <h4>EMI option available
+                    </h4>
+                    <ul>
+                        <li>EMI starting from Rs.46/month</li>
+                    </ul>
+                    <small>View Plan</small>
+                    
+                 </div>
+                 <h2>PRODUCT DETAILS 
+                </h2>
+                <small>Blue windowpane checked opaque formal shirt, has a spread collar</small>
+                    button placket, 1 patch pocket, long regular sleeves, straight </p>
+                    <h4>Size & Fit
+                    </h4>
+                    <small>The model (height 6') is wearing a size 40</small>
+                    <h4>Material & Care</h4>
+                    <small>100% Cotton</small></br>
+                    <small>Machine Wash</small></br>
+                    <h4>Specifications</h4>
+                    <small>Sleeve Length</small></br>
+                    <strong>Long Sleeves</strong></br>
+                    <div>
+                        <small>Fit</small></br>
+                        <strong>Slim Fit</strong>
+                    </div>
+                    <div>
+                        <small>Occasion</small></br>
+                        <strong>Formal</strong></br>
+                    </div>
+                    <div>
+                        <small>Hemline</small></br>
+                        <strong>Straight</strong></br>
+                    </div>
+                    <div>
+                        <strong>See More</strong>
+                    </div>
+                    <div>
+                        <h4>Product Code: 21417882</h4>
+                    </div>
+                    <div>
+
+                    </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
