@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +19,7 @@
         }
 
         #navbar {
-            border: 3px solid red;
+            /* border: 3px solid red; */
             width: 100%;
             height: 50px;
             display: flex;
@@ -28,33 +29,33 @@
 
         }
         #logo{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
         
         }
         #Searh{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
         }
         #Login{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
         }
         #Became a Seller{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
         }
         #more{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
         }
         #cart{
-            border: 2px solid black;
+            /* border: 2px solid black; */
             width: 15%;
             height: 50px;
 
@@ -64,24 +65,19 @@
             height:70px ;
             border: 3px solid black;
             display: flex;
-            justify-content: space-around;
-            
+            justify-content: space-around;   
         }
-
-
-
-        #body {
-            border: 3px solid red;
+          #body {
+            /* border: 3px solid red; */
             width: 100%;
             display: flex;
             justify-content: space-around;
-            margin-left: 10PX;
+
         }
-
-
-        #body>div:nth-child(1) {
+         #body>div:nth-child(1) {
             width: 18%;
             border: 2px solid black;
+        
         }
 
         #body>div:nth-child(2) {
@@ -90,7 +86,6 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            
 
         }
 
@@ -112,8 +107,6 @@
             height: 250px;
         }
 
-
-
         #body>div:nth-child(1)>div {
             border-bottom: 1px solid black;
             margin-left: 20px;
@@ -129,15 +122,25 @@
 <body>
     <div id="screen">
         <div id="navbar">
-            <div id="logo">logo
+            <div id="logo">
                 
-               <img src="https://backend.insideiim.com/wp-content/uploads/2015/08/Flipkart-logo-insideiim.png"/>
+               <img style="height: 45px; width: 14%;" src="https://backend.insideiim.com/wp-content/uploads/2015/08/Flipkart-logo-insideiim.png"/>
             </div>
-            <div id="search">search</div>
-            <div id="Login">Login</div>
+            <div id="search">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div>
+                    <input type="search" placeholder="serch for product and brands more"/>
+                </div>
+            </div>
+            <div id="Login">
+             <input type="number"/>
+            </div>
             <div id="Became a Seller">Became a Seller</div>
-            <div id="more">More</div>
-            <div id="cart">Cart
+            <div id="more">more </div>
+            <div id="cart">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
                 
             </div>
 
@@ -191,7 +194,7 @@
                 
             </div>
 
-            </div>
+            <!-- </div> -->
             <!-- for right side -->
             <div>
                 <!-- for container -->
