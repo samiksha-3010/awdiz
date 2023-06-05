@@ -1,6 +1,17 @@
 // var number = 10;
 // var number = 20;
 
+var number  = 10; 
+var  number =  20;
+
+var addition  = number1 + number2;
+   console.log(addition)
+   
+
+
+
+
+
 // var addition = number1 + number2;
 // console.log(addition)
 
@@ -22,8 +33,8 @@
 // i++;
 // console.log(1)
 
-var number = 100;
-console.log(number > 150)
+// var number = 100;
+// console.log(number > 150)
 
 // Conditional Statement
 
@@ -75,14 +86,14 @@ console.log(number > 150)
 // }
 
 
- var number1 = 123;
- var number2 = "123";
- console.log(num1 == num2)
- console.log(num1 === num2)
+//  var number1 = 123;
+//  var number2 = "123";
+//  console.log(num1 == num2)
+//  console.log(num1 === num2)
 
- var num1 = 98;
- console.log(num1 > 50 && num1 < 99 && num1 < 10)
-console.log(num1 > 50 || num1 < 90 || num1 < 20)
+//  var num1 = 98;
+//  console.log(num1 > 50 && num1 < 99 && num1 < 10)
+// console.log(num1 > 50 || num1 < 90 || num1 < 20)
 
 
 //  datatypes

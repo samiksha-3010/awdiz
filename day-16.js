@@ -3,10 +3,10 @@
 // console.log(typeof(myName))
 
 // myName = "samiksha"; assign
-// console.log(myName,//"assgin")
+//  console.log (myName,"assgin")
 
 
-// //Array
+// // Array
 // var hii ="hii"
 // var kuchbhi=["samiksha","xyz",8976,true,"false",hii];
 // console.log(kuchbhi[0]);
@@ -87,4 +87,4 @@ console.log (remote[4])
 
 for(var i = 0; i < remote.length; i++){
     console.log(remote[i])
-}
+ }

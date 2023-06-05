@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            height: 700px;
+            border: 3px solid rgb(145, 25, 25);
+        }
+        #screen>div{
+            width: 50%;
+            height:200px ;
+            border: 1px solid black;
+            text-align: center;
+            font-size: larger;
+             color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+            /* =======login===== */
+        }
+         #login>div:nth-child(1){ 
+            text-align: center;
+            line-height: 30px;
+            word-spacing: normal;
+             font-size: larger; 
+            /* color: #ffffff;  */
+
+        }
+        #login>div input:hover{
+            border: none;
+             line-height: 35px;
+             background-color:red; 
+    
+        }
+    
+        #order>span:hover {
+            line-height: 15px;
+            border: 1px solid black;
+            
+
+        }
+        #myntra>span:hover{
+            border: 1px solid red;
+            line-height:15px ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="login">
+            <div>
+            <h4>Welcome</h4>
+            <span> To access account and manage orders</span></br>
+            <input type="LOGIN" placeholder=" LOGIN/SING UP"/>
+        </div>
+</div>
+         
+        <div id="order">
+            
+            
+            <span>Order</span></br>
+            <span>Wishlist</span></br>
+        
+            <span> Gift Cards</span></br>
+            <span> Contact Us</span></br>
+            <span> Myntra Insider</span></br>
+        </div>
+    
+        <div id="myntra">
+            <div>
+            <span>Myntra Credit</span></br>
+            <span>Copouns</span></br>
+            <span>Saved Card</span></br>
+            <span>Saved VPI</span></br>
+            <span>Saved Adress</span></br>
+            
+        </div>
+    </div>
+    </div>
+</body>
+</html>

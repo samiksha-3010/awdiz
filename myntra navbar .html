@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myntra navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            border: 1px solid black;
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid red;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #logo{
+            width: 20%;
+            height: 70px;
+            border: 1px solid black;
+        }
+        #product{
+            width: 30%;
+            height: 70px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+        
+        
+        }
+        #product>p{
+            margin-top: 25px;
+        }
+        #search{
+            width: 20%;
+            height: 70px;
+            /* border: 1px solid black; */
+
+        }
+        #search>div{
+            border: 1px solid black;
+            margin-top: 25px;
+
+        }
+        #search>div>input{
+            width: 90%;
+            border: none;
+            outline: none;
+            height: 35px;
+        }
+        #logo2{
+            width: 20%;
+            height: 70px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+
+
+        }
+        #logo2>p>{
+            margin-top: 25px;
+            margin-bottom: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div id="logo">
+                <img style=" height: 60px; width: 60%;" src="https://www.adgully.com/img/800/201704/myntra-logo.jpg"/>
+            </div>
+            <div id="product">
+                <p>Men,s</p>
+                <p>Women,s</p>
+                <p>Kid,s</p>
+                <p>Home living</p>
+                <p>Beauty</p>
+                <p>Studio</p>
+            </div>
+            <div id="search">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                <input  type="search" placeholder="search for product and brand more"/>
+            </div>
+            </div>
+            <div id="logo2">
+                <p>profile</p>
+                <i class="fa-solid fa-user"></i>
+                <p>wishlist</p>
+                <i class="fa-solid fa-heart"></i>
+                <p>Cart</p>
+
+                <i class="fa-solid fa-cart-shopping"></i>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
