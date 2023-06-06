@@ -1,17 +1,6 @@
 // var number = 10;
 // var number = 20;
 
-var number  = 10; 
-var  number =  20;
-
-var addition  = number1 + number2;
-   console.log(addition)
-   
-
-
-
-
-
 // var addition = number1 + number2;
 // console.log(addition)
 
@@ -32,6 +21,9 @@ var addition  = number1 + number2;
 // i++;
 // i++;
 // console.log(1)
+
+
+
 
 // var number = 100;
 // console.log(number > 150)
