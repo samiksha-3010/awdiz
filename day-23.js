@@ -5,3 +5,7 @@ function   greet (){
 function   hello (){
     alert("clicked!")
 }
+
+function   greet (){
+    alert("hello")
+}

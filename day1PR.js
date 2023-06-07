@@ -1,15 +1,20 @@
-//  var num1  = 12345;
-//  var  num2  = 87659;
+// Q Given an target find threee number from array which addition is target . 
 
-//  var add =  num1   +  num2;
-//  console.log(add)
-
-//  function
-
+var target = 93;
+var array = [3, 54, 65, 32, 6, 23, 56, 76, 17, 100, 7, 91, 1, 1];
+91,1,1
+// Hint - use three nested for loops
 
 
-var   num1 = 1254;    
- var num2  =  6578;
- console.log(add)
+for (var i=0; i< array.length; i++) {
+    // console.log(array[i])
 
-//  function  addittion ()
+for (var j=1 + 1; j< array.length;j++){
+    console.log(array[j])
+
+if (array[i] + array[j] == target){
+    console.log(array[i] , array[j] , "got!")
+} 
+console.log(array[i],"+", array[j] , "=",array[i]+ array[j] )
+}
+}
