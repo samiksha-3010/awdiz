@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Women</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            /* height: 1000px; */
+            border: 1px solid black;
+        }
+        #body{
+            width: 100%;
+            height: 150px;
+            border: 1px solid black;
+            margin-top: 80px;
+            font-size: small;
+            color: #29303E;
+        }
+        #body>div:nth-child(1){
+            line-height: 35px;
+        }
+        #body>div:nth-child(1)>p:nth-child(2){
+            font-size: 14px;
+        }
+        #body>div:nth-child(2){
+            display: flex;
+            width: 100%;
+            height: 50px;
+            /* border: 1px solid black; */
+            border-bottom: 1px solid #80828d;
+
+        }
+        #body>div:nth-child(2)div:nth-child(2){
+             /* border: 1px solid black; */
+             width: 28%;
+            padding-top: 12px;
+        }
+        #body>div:nth-child(2)div:nth-child(2)span{
+              /* border: 1px solid black; */
+              margin-left: 5px;
+        }
+        
+        #product{
+            width: 100%;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+        }
+        #left{
+            width: 20%;
+            /* border: 1px solid red;  */
+             height: 500px; 
+             
+        }
+        #leftright{
+            border: 1px solid black;
+            
+        }
+        #productdiv>input,label{
+            margin-right: 20px;
+        }
+        #brand{
+            border: 1px solid black;
+
+        }
+        #brand>input,label{
+            margin-right: 20px;
+
+        }
+        #price{
+            border: 1px solid black;
+        }
+        #price>input,label{
+            margin-bottom: 10px;
+            outline: none;
+        }
+
+        #colour{
+            border: 1px solid black;
+        }
+        #colour>input,label{
+            margin-right: 20px;
+            margin: auto;
+        }
+         #colour>span{
+            width: 12px;
+            height: 12px;
+             border-radius: 50%;
+             display: inline-block;
+             /* margin-right: 8px; */
+              margin-left: 8px;
+             } 
+        #discount{
+            border: 1px solid black;
+            margin: auto;
+        }
+        #discount>input,label{
+            margin-right: 20px;
+            margin: auto;
+        }
+        #right{
+            width: 78%;
+            border: 1px solid red;
+            /* height: 500px; */
+            display: flex;justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        #right>div{
+            width: 20%;
+            /* border: 1px solid black; */
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="body">
+            <div>
+            <p>Home / Clothing / <b>Kurtis For Women</b></p>
+            <p><b>Kurtis For Women</b>
+                - 130859 items</p>
+            </div>
+            <div>
+                <h2>FILTERS</h2>
+            </div>
+             <div>
+                <span>Bundles <select  style="border: none; color: gray;">
+                <option style="border: none;"></option></select></span>
+
+                <span>Country of orgin
+                    <select style="border: none;color: gray;">
+                    <option style="border: none;"></option></select>
+                </span>
+                <span>size<select style="border: none;color: gray;"><option style="border: none;"></option></select>
+                 </span>
+             </div>
+             <div>
+                short by <b>Recommended</b>
+                <select style="border: none; color: gray; width: 50px;">
+                <option style="border: none;"></option></select>
+             </div>
+
+            </div>
+        <div id="product">
+            <div id="left">
+                <div id="leftright">
+                    <input type="checkbox"/>
+                    <label>Women</label></br>
+                    <input type="checkbox"/>
+                    <label>Girl</label>
+                </div>
+
+                <div id="brand">
+                    <h4>BRAND</h4>
+                    <input type="checkbox" />
+                    <label>Blouse</label><br />
+                    <input type="checkbox" />
+                    <label>Blouse</label><br />
+                    <input type="checkbox" />
+                    <label>Sari</label><br />
+                    <input type="checkbox" />
+                    <label>Sri</label><br />
+
+
+                </div>
+
+                <div id="price">
+                        <h4>PRICE</h4>
+                    <input type="checkbox" />
+                    <label>Rs. 319 to Rs. 889</label><br />
+                    <input type="checkbox" />
+                    <label> Rs. 889 to Rs. 1459</label><br />
+                    <input type="checkbox" />
+                    <label>Rs. 1459 to Rs. 2029</label><br />
+                    <input type="checkbox" />
+                    <label>Rs. 2029 to Rs. 2599</label><br />
+                    </div>
+                    <div id="colour">
+                        <h4>colour</h4>
+                        <input type="checkbox" />
+                        <span style="background-color: green;"></span >
+                        <label> Green</label><br />
+                        <input type="checkbox" />
+                        <span style="background-color:black;"></span>
+                        <label>Black</label><br />
+                        <input type="checkbox" />
+                        <span style="background-color:blue;"></span>
+                        <label>Blue</label><br />
+                        <input type="checkbox" />
+                        <span style="background-color:red;"></span>
+
+                        <label>Red</label><br />
+                        <input type="checkbox" />
+                        <span style="background-color:yellow;"></span>
+                        <label>Yellow</label><br />
+
+                        <input type="checkbox" />
+                        <span style="background-color: pink;"></span>
+                        <label>Pink</label><br />
+
+                        <input type="checkbox" />
+                        <span style="background-color: grey;"></span>
+                        <label>Grey</label><br />
+
+                        <input type="checkbox" />
+                        <span style="background-color: lavender;"></span>
+                        <label>Lavender</label><br />
+                    </div>
+
+                    <div id="discount">
+                        <h4>Discount</h4>
+                        <input type="radio" />
+                       
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                    </div>
+            </div>
+            <div id="right">
+                
+                <div>
+                <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22779316/2023/4/15/3c3443cb-0dfc-4f3e-a84f-88cc6b9589801681505797841BlackGeorgetteEmbroideryWorkSareeWithUnstitchedBlousePiece1.jpg"/>
+                <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div> 
+                    <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21310882/2022/12/26/2ffc2dfd-4751-4dc8-a173-67e19a48b46c1672059646093AnoukBurgundyGold-TonedWovenDesignZariPureGeorgetteKanjeevar1.jpg"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19253020/2022/7/29/b7f91a31-0810-4fe0-bde5-3f8ba1f5b7a21659081442776KALINIWhiteGold-TonedZariSaree1.jpg"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21265374/2022/12/21/6c0a519c-ed76-45b0-833b-daadb786ca9a1671618276852SareemallLavenderGold-TonedWovenDesignZariSilkBlendKanjeevar1.jpg"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                 <img  style="width: 100%; height: 320px;"   src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18302804/2023/3/29/cb7e21f1-4a43-4955-ab5a-b5a72af834f31680084902995-Mitera-Cream-Coloured--Red-Floral-Silk-Blend-Saree-916800849-1.jpg" />
+                 <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img style="width: 100%; height: 320px;"  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22906696/2023/4/26/eb1ce687-f0d6-4c08-9302-ec54d9104d071682509432437MarooncolourEmbroideredCottonSaree1.jpg"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+            <img    style="width: 100%; height: 320px;"    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22389988/2023/3/17/08c41a42-f941-4b60-b58c-d801fb1bba131679000090470Sarees1.jpg"/>
+            <p><b>Mitera</b></p>
+            <span>Sequinned Embellished Saree </span>
+            <p><b> Rs. 1739Rs. 5999(71% OFF)
+              4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;"    src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13792172/2021/4/5/4a457af8-a806-4ab2-9f4f-1f15835599ed1617603803561-Banarasi-border-301617603802640-1.jp"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22786206/2023/4/15/c4747257-d0c1-42ae-a8a8-419fe3073f111681535476556Sarees1.jpg"/>
+                <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;"   src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21574700/2023/1/30/b236eed3-b326-406b-920d-88c7f5cb491f1675069295566-Silk-Land-Floral-Zari-Tissue-Mysore-Silk-Saree-5161675069294-1.jpg"/>
+                    <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div> 
+                     <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15935044/2021/12/2/49322cc5-fa6a-4bf7-999b-f0cccf92a3d31638425197908-Anouk-Yellow-Zari-Pure-Silk-Banarasi-Saree-4671638425197077-1.jpg"/>
+                     <p><b>Mitera</b></p>
+                  <span>Sequinned Embellished Saree </span>
+                  <p><b> Rs. 1739Rs. 5999(71% OFF)
+                    4.4</b></Rs.></p>
+                </div>
+                <div> 
+                     <img style="width: 100%; height: 320px;"   src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22565132/2023/3/29/c03f26ec-50ae-4f37-8eff-d505f94b8c521680108168038SareemallOffWhiteBhagalpuriSilkEthnicPrintedFestiveSareewith1.jpg"/>
+                     <p><b>Mitera</b></p>
+                     <span>Sequinned Embellished Saree </span>
+                     <p><b> Rs. 1739Rs. 5999(71% OFF)
+                       4.4</b></Rs.></p>
+
+                </div>
+                <div>  <img  style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22866694/2023/4/24/b699d978-6a8f-4064-bcaf-f2480db9f4a41682349679691KaliniOrangeSilkBlendEthnicWovenDesignFestiveSareewithMatchi1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img style="width: 100%; height: 320px;"  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22670770/2023/4/6/ebb6102e-9746-460c-8c74-27c8750399251680769953295GorgoneGreyEthnicMotifsSilkBlendSareewithBlousePiece1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;"  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18709036/2022/8/3/d60cffe1-eca3-40b9-830c-7def1779baac1659507299726-Metallic-colored-satin-striped-polyester-saree-3891659507298-1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img style="width: 100%; height: 320px;"  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22906672/2023/4/26/c2d5d269-3841-4379-8ab0-bf52b879ac5f1682509399095MulticolourKalamkariSilkBlendSaree1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img style="width: 100%; height: 320px;"  src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22279998/2023/3/10/eee56a1d-82d6-4a14-9b1f-3cf649d453361678445908603MultiColoredTyeandDyePrintedorganzaSaree1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img  style="width: 100%; height: 320px;"   src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23066426/2023/5/6/798e12aa-111b-4cdf-8b11-545b7ae97b271683388427886KaliniBlueSilkBlendEthnicWovenDesignFestiveSareewithMatching1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                    <img    style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21332208/2022/12/28/2492a972-7d35-4901-9dda-1dc8c1ed50021672223348303JinaxTealPinkWovenDesignZariPureSilkBanarasiSaree1.jpg"/>
+                    <p><b>Mitera</b></p>
+                    <span>Sequinned Embellished Saree </span>
+                    <p><b> Rs. 1739Rs. 5999(71% OFF)
+                      4.4</b></Rs.></p>
+                </div>
+                <div>
+                   <img style="width: 100%; height: 320px;" src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22906670/2023/4/26/b9e5db9d-6a0a-4419-ab20-0ff32d49e3691682509397630PinkEthnicMotifTussarSaree1.jpg"/>
+                   <p><b>Mitera</b></p>
+                   <span>Sequinned Embellished Saree </span>
+                   <p><b> Rs. 1739Rs. 5999(71% OFF)
+                     4.4</b></Rs.></p>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
