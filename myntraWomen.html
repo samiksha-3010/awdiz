@@ -23,6 +23,13 @@
             margin-top: 80px;
             font-size: small;
             color: #29303E;
+            display: flex;
+        }
+        #body2{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            border: 3px solid red;
         }
         #body>div:nth-child(1){
             line-height: 35px;
@@ -65,14 +72,19 @@
             
         }
         #productdiv>input,label{
-            margin-right: 20px;
+            /* margin-right: 20px; */
+            padding-bottom: 20px;
         }
         #brand{
-            border: 1px solid black;
+            border-bottom: 1px solid gray;
+            /* border: 1px solid black; */
+            padding: 10px 0px;
+
 
         }
         #brand>input,label{
-            margin-right: 20px;
+            /* margin-right: 20px; */
+            padding-bottom: 20px;
 
         }
         #price{
@@ -123,11 +135,9 @@
 <body>
     <div id="screen">
         <div id="body">
-            <div>
-            <p>Home / Clothing / <b>Kurtis For Women</b></p>
-            <p><b>Kurtis For Women</b>
-                - 130859 items</p>
-            </div>
+            <div id="body2">
+            
+           
             <div>
                 <h2>FILTERS</h2>
             </div>
@@ -147,8 +157,9 @@
                 <select style="border: none; color: gray; width: 50px;">
                 <option style="border: none;"></option></select>
              </div>
-
             </div>
+            </div>
+        </div>
         <div id="product">
             <div id="left">
                 <div id="leftright">

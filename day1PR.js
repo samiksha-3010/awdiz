@@ -10,11 +10,11 @@ for (var i=0; i< array.length; i++) {
     // console.log(array[i])
 
 for (var j=1 + 1; j< array.length;j++){
-    console.log(array[j])
+    // console.log(array[j])
 
 if (array[i] + array[j] == target){
     console.log(array[i] , array[j] , "got!")
 } 
-console.log(array[i],"+", array[j] , "=",array[i]+ array[j] )
+// console.log(array[i],"+", array[j] , "=",array[i]+ array[j] )
 }
 }
