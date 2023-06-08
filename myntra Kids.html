@@ -4,192 +4,464 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Myntra Kids</title>
-     <style>
+    <title>myntra kids</title>
+    <style>
         *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
         }
         #screen{
-            border: 1px solid black;
-            height: 700px;
             width: 100%;
-            display:flex;
-            
-        }
-        #box1{
             border: 1px solid black;
-            width: 20%;
-            height: 700px;
         }
-        #box1>h2{
-            color: palevioletred;
+        #body{
+            width: 100%;
+            height: 150px;
         }
-        #box1>p{
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: normal;
-            font-size: x-large;
-            font-weight: 500;
-          
+        #body1{
+            border: 1px solid black;
+            padding-top: 20px;
+            
 
         }
-        box1>p:hover{
-         border: 1px solid pink;
+        #type{
+            /* border: 1px solid red; */
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 30px;
         }
-        #box2{
-            border: 1px solid black;
-            width: 20%;
-            height: 700px;
-            text-align: center;
+        #type>p{
+            color: red;
+            
         }
-        #box2>h2{
-            color: palevioletred;
-        }
-        #box2>p{
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: normal;
-            font-size: x-large;
-            font-weight: 500;
-        }
-        #box3{
-            border: 1px solid black;
-            width: 20%;
-            height: 700px;
-        }
-        #box3>h2{
-            color: palevioletred;
-        }
-        #box3>p{
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: normal;
-            font-size: x-large;
-            font-weight: 500;
+        #type>span{
+         font-size: small;
+         padding-bottom: 35px 0px;
+         
+       }
+       #type>div{
+        border: 1px solid black;
+        
+       }
+       #leftright{
+        border: 1px solid black;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       }
+       #left{
+        /* border: 1px solid black; */
+        width: 25%;
+        /* height: 500px; */
+       }
+       #box1{
+        border-bottom: 1px solid gray;
+        margin: 20px;
+        
+       }
+       #box2{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+       }
+       #box2>p{
+        color:red;
+        padding-bottom: 20px;
+       }
+       /* #box2>lable>span{
+        color: gray;
+       } */
+       #box3{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+
+       }
+       #box3>p{
+        color:red;
+        padding-bottom: 20px;
         }
         #box4{
-            border: 1px solid black;
-            width: 20%;
-            height: 700px;
-        }
-        #box4>h2{
-            color: palevioletred;
-        }
-        #box4>p{
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: normal;
-            font-size: x-large;
-            font-weight: 500;
-        }
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+       }
+
         #box5{
-            border: 1px solid black;
-            width: 20%;
-            height: 700px;
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+       }
+       #box5>p{
+        color:red;
+        padding-bottom: 20px;
         }
-        #box5>h2{
-            color: palevioletred;
-        }
-        #box5>p{
-            text-align: center;
-            margin-bottom: 25px;
-            line-height: normal;
-            font-size: x-large;
-            font-weight: 500;
-        }
-     </style>
+        #box5>span{  
+        width: 12px;
+            height: 12px;
+             border-radius: 50%;
+             display: inline-block;
+             /* margin-right: 8px; */
+              margin-left: 8px;
+             } 
+             #box6{
+                border-bottom: 1px solid gray;
+                font-size: small;
+                margin:20px ;
+
+             }
+       #right{
+        /* border: 1px solid black; */
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+       }
+       #right>div{
+        width: 18%;
+        height: 400px;
+        /* border: 1px solid black; */
+       }
+       #right>div>img{
+        width: 100%;
+        height: 300px;
+       }
+       #img>b,p{
+        text-align: center;
+        font-size: small;
+
+       }
+       /* #img>b>span{
+        color: red;
+       } */
+       /* #right>div:nth-child(2)span{
+        color: gray;
+       } */
+
+    </style>
 </head>
 <body>
     <div id="screen">
-        <div id="box1">
-            <h2>Boys Clothing</h2>
-            <p>Shirt,s</p>
-            <p>Tops</p>
-            <p>Short,s</p>
-            <p>Casual shirts</p>
-            <p>Farmal Shirts</p>
-            <p>Clothing Sets</p>
-            <p>Ethnic Wear </p> 
-            <p>Track Pants & Pyjamas</p>
-            <p>Jacket, Sweater & Sweatshirts</p>
-            <p>Party Wear</p>
-            <p>Innerwear & Thermals</p>
-            <p>Nightwear & Loungewear</p>
-            <p>Value Packs</p>
-        </div>
-        <div id="box2">
-            <h2>Girl,s</h2>
-            <p>Girl,s Clothing</p>
-            <p>Tops</p>
-            <p>Tshirts</p>
-            <p>Clothing Sets</p>
-            <p>Lehenga choli</p>
-            <p>Kurta Sets</p>
-            <p>Party wear</p>
-            <p>Dungarees & Jumpsuits</p>
-            <p>Skirts & shorts</p>
-            <p>Tights & Leggings</p>
-            <p>Jeans, Trousers & Capris</p>
-            <p>Jacket, Sweater & Sweatshirts</p>
-            <p>Innerwear & Thermals</p>
-        </div>
-        <div id="box3">
-           <h2> Footwear</h2>
-            <p> Casual Shoes</p>
-            <p>Flipflops</p>
-            <p>Sports Shoes</p>
-            <p>Flats</p>
-            <p>Sandals</p>
-            <p>Heels</p>
-            <p>School Shoes</p>
-           <div id="box33">
-            <h2>Toys</h2>
-            <p>Learning & Development</p>
-            <p>Activity Toys</p>
-            <p>Soft Toys</p>
-            <p>Action Figure / Play set</p>
-           </div>
+        <div id="body">
+            <div id="body1">
+                <span><b>Home / Clothing /  <b>Kids Wear Online Store</b></span></br>
 
+                <span> <b>Kids Wear Online Store</b></Kids>
+                    - 33173 items</span>
+            </div>
+             <div id="type">
+                <h4>FILTERS</h4>
+               
+                <p>CLEAR ALL</p>
+
+                <span>Age
+                <select style="border: none;color: gray;">
+                    <option style="border: none;"></option></select></span>
+
+
+                <span>Bundles
+                <select style="border: none;color: gray;">
+                    <option style="border: none;"></option></select></span>
+                <span>Collar
+                    <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select>
+                </span>
+                <span>Country og Orgin
+                    <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select>
+                </span>
+                <span>Fabric
+                    <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select>
+                </span>
+                <span>Fabric
+                    <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select>
+                </span>
+                <span>Fit
+                    <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select>
+                </span>
+                <b>16+more</b>
+                <div>
+                    <span>Short by:<b>Recommended</b>
+                        <select style="border: none;color: gray;">
+                            <option style="border: none;"></option></select>
+                    </span>
+                </div>
+            </div>
         </div>
-        <div id="box4">
-
-            <h2>Infants</h2>
-            <p>Bodysuits</p>
-            <p>Rompers & Sleepsuits</p>
-            <p>Clothing Sets></p>
-            <p>Tshirts & Tops</p>
-            <p>Dresses</p>
-            <p>Bottom wear</p>
-            <p>Winter Wear</p>
-            <p>Innerwear & Sleepwear</p>
-
-            <div id="home"></div>
-            <h2>Home & Bath</h2>
-            <h2>Personal & Care</h2>
-
         </div>
-        <div id="box5">
-            <h2>Kids Accessories</h2>
-            <p>Caps & Hats</p>
-            <p>Bags & Backpacks</p>
-            <p>Watches</p>
-            <p>Jewellery & Hair accessory</p>
-            <p>Sunglasses</p>
-            <p>Masks & Protective Gears</p>
+        <div id="leftright">
+            <div id="left">
+                <div id="box1">
+                    <input type="checkbox"/>
+                    <label>Girls</label></br>
+                    <input type="checkbox"/>
+                    <label>Boys</label>
+                </div>
+                <div id="box2">
+                    <h4>CATEGORIES</h4>
+                    <input type="checkbox"/>
+                    <label>Tshirts<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label> Shirts <span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label> Clothing Set<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label>Sweatshirts<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label> Kurta Sets<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label>Kurta Sets<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label> Track Pants<span>(33195)</span></label></br>
+                    <input type="checkbox"/>
+                    <label>  Night suits<span>(33195)</span></label></br>
+                    <p>+240 more</p>
+
+                </div>
+                <div id="box3">
+                    <h4>Brand</h4>
+                    <input type="checkbox"/>
+                    <label>Gini and Jony(8402)</label></br>
+                    <input type="checkbox"/>
+                    <label> Pantaloons Junior(2723)</label></br>
+                    <input type="checkbox"/>
+                    <label> V-Mart(2609)</label></br>
+                    <input type="checkbox"/>
+                    <label> Hopscotch(2311)</label></br>
+                    <input type="checkbox"/>
+                    <label>   max(2032)</label></br>
+                    <input type="checkbox"/>
+                    <label>  NUSYL(1823)</label></br>
+                    <input type="checkbox"/>
+                    <label> H&M(1773)</label></br>
+                    <input type="checkbox"/>
+                    <label> U.S. Polo Assn. Kids(1766)</label></br>
+                    <p>+219more</p>
+                </div>
+                <div id="box4">
+                    <h4>PRICE</h4>
+                    <input type="checkbox"/>
+                    <label>Rs. 14809 to Rs. 29539(33)</label></br>
+                    <input type="checkbox"/>
+                    <label>Rs. 14809 to Rs. 29539(33)</label></br>
+                    <input type="checkbox"/>
+                    <label>  Rs. 44269 to Rs. 58999(7)</label>
+                   
+
+
+                </div>
+                <div id="box5">
+                <h4>COLOUR</h4>
+                <input type="checkbox"/>
+                <span style="background-color: black;"></span>
+                <label>Black</label></br>
+                <input type="checkbox"/>
+                <span style="background-color: red;"></span>
+                <label>Red</label></br>
+                <input type="checkbox"/>
+                <span style="background-color: blue;"></span>
+                <label>Blue</label></br>
+                <input type="checkbox"/>
+                <span  style="background-color: green;"></span>
+                <label>Green</label></br>
+                <input type="checkbox"/>
+                <span  style="background-color: brown;"></span>
+                <label>Brown</label></br>
+                <input type="checkbox"/>
+                <span style="background-color: yellow;"></span>
+                <label>Yellow</label></br>
+                <input type="checkbox"/>
+                <span style="background-color: green;"></span>
+                <label>Green</label></br>
+                <p> +33more</p>
+                </div>
+
+                <div id="box6">
+                    <h4>DISCOUNT RANGE</h4>
+                    <input type="radio" />
+                       
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                    <input type="radio" />
+                    <label>30% and above</label><br />
+                </div>
+            </div>
+            <div id="right">
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19662810/2022/8/25/62f4ec2a-cdf3-4cdc-a35c-3144b02d736d1661432266938ATUNBoysShirt1.jpg"/>
+                     <b>HERE&NOW</b>
+                    <p>Boys Micro Checked Casual Shirt</p>
+                       <b> Rs. 399Rs <span>(45%  off)</span>  </b> 
+                        
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/17262526/2023/5/24/565bc7e3-702e-40a5-9aaa-f9f6e963b3531684915782524ShirtsTommyHilfigerBoysShirtsTommyHilfigerBoys1.jpg"/>
+                 <b>HERE&NOW</b>
+                    <p>Boys Micro Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b>
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21185924/2023/6/5/63e2dee4-1d39-4f49-9e1f-b4d175fc56d71685961104817-HERENOW-Boys-Solid-Casual-Shirt-6321685961104743-11.jpg"/>
+                     <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                
+
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23173166/2023/5/13/6dee89b0-af11-4921-b45b-5a1a13b9f8bf1683984584257GASBoysYellowOpaqueStripedCasualShirt1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23468806/2023/5/30/ec79f3ad-28f6-4140-9135-e3bb4386f8db1685390386025milouBoysGreenOpaqueCheckedCasualShirt1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388824/2023/6/5/774f4406-cfb2-44da-b06a-786265ff7f581685961238926-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-77116859612388-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388824/2023/6/5/774f4406-cfb2-44da-b06a-786265ff7f581685961238926-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-77116859612388-11.jpg"/>
+                    
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388824/2023/6/5/774f4406-cfb2-44da-b06a-786265ff7f581685961238926-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-77116859612388-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15925378/2022/4/28/ed5ca6ed-fca0-44d4-88ff-c21ee6df929f1651141694342-HERENOW-Boys-Yellow-Regular-Fit-Horizontal-Stripes-Opaque-Ca-1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388820/2023/6/5/8be42817-aa84-41a8-9fda-776f610393721685961190002-HERENOW-Boys-Printed-Pure-Cotton-Casual-Shirt-97168596118990-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14903496/2023/5/30/cee405b9-d833-4637-a354-e6a27a156c631685441772121-HERENOW-Boys-Yellow-Pure-Cotton-Casual-Shirt-428168544177183-1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388836/2023/5/30/fe2399b2-dd29-4bd5-9e53-ddecf0f840cc1685442135829-HERENOW-Boys-Printed-Pure-Cotton-Casual-Shirt-54216854421355-1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388822/2023/6/5/5364b238-6e6d-4611-a83d-e2ce6a9ee04c1685961212306-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-33168596121221-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388826/2023/6/5/da9da972-30ab-4e8f-aa5c-eab4bc1a12121685961304478-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-82916859613043-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14672742/2022/12/9/3d06c440-017e-449e-b74b-fe1e7d4556641670590001998-HERENOW-Boys-Yellow-Floral-Printed-Cotton-Casual-Shirt-77116-1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388828/2023/6/5/6ffa786d-af5c-48fd-b8b9-7cb5688b11b11685961329366-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-67916859613292-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388826/2023/6/5/da9da972-30ab-4e8f-aa5c-eab4bc1a12121685961304478-HERENOW-Boys-Checked-Pure-Cotton-Casual-Shirt-82916859613043-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20586348/2022/11/2/bdc43c45-8914-4fe5-8431-caea910c47901667385408222Shirts1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388816/2023/6/5/936ef057-cc0f-4b6a-8e3c-025918b8e5291685961159866-HERENOW-Boys-Printed-Pure-Cotton-Casual-Shirt-83816859611597-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22024410/2023/2/17/9b7d54f3-883e-43f8-a65c-afcf78f969e81676638592373Shirts1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14903496/2023/5/30/cee405b9-d833-4637-a354-e6a27a156c631685441772121-HERENOW-Boys-Yellow-Pure-Cotton-Casual-Shirt-428168544177183-1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/18002264/2022/4/23/88e2fdd3-50aa-4ba6-9bd4-23b5951d01931650703481552JackJonesBoysMulticolouredTartanChecksCheckedCasualShirt1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22024410/2023/2/17/9b7d54f3-883e-43f8-a65c-afcf78f969e81676638592373Shirts1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21388816/2023/6/5/936ef057-cc0f-4b6a-8e3c-025918b8e5291685961159866-HERENOW-Boys-Printed-Pure-Cotton-Casual-Shirt-83816859611597-11.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+                <div>
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20586348/2022/11/2/bdc43c45-8914-4fe5-8431-caea910c47901667385408222Shirts1.jpg"/>
+                    <b> Jack & Jones </b>
+                    <p>Boys Blue & Yellow Checked Casual Shirt</p>
+                    <b>Rs. 399Rs<span>(50% off)</span></b> 
+                </div>
+
+            </div>
             
-                <div></div>
-            <h2>Brands</h2>
-           <p> H&M </p>
-           <p></p>Max Kids</p>
-           <p>Pantaloons</p>
-           <p>United Colors Of Benetton Kids</p>
-           <p>YK</p>
-           <p>U.S. Polo Assn. Kids</p>
-           <p>Mothercare</p>
-            <p>HRX</p>
         </div>
+        <div>Product</div>
+
+
     </div>
 </body>
 </html>
