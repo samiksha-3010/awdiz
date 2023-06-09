@@ -18,3 +18,5 @@ if (array[i] + array[j] == target){
 // console.log(array[i],"+", array[j] , "=",array[i]+ array[j] )
 }
 }
+
+
