@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            height: 800px;
+            border: 1px solid black;
+
+        }
+        #parent{
+            width: 40%;
+            height: 700px;
+            border: 1px solid black;
+            margin: auto;
+        }
+        #box1{
+            border: 1px solid black;
+            height: 240px;
+            width: 100%;
+        }
+        #box1>img{
+            width: 100%;
+            height: 240px;
+        }
+        #Login{
+            /* border: 1px solid black; */
+            margin: auto;
+            width: 30%;
+            /* height: 600px; */
+            margin: auto;
+            margin-top: 50px;
+        }
+        #Login {
+            /* text-align: center; */
+            margin-top: 30px;
+            font-size: large;
+            /* border: 1px solid black; */
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            line-height: 25px;
+            height: 280px;
+
+        }
+        .length {
+            height:30px;
+            width:90%;
+        }
+
+        #butn{
+            width: 80%;
+            height: 40px;
+            margin-top: 40px;
+            background-color: purple;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            margin-left: 30px;
+            border: 1px solid purple;
+            border-radius: 5px;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="parent">
+            <div id="box1">
+                <img src="https://images.meesho.com/images/marketing/1661417516766.webp"/>
+            </div>
+       
+            <div id="Login">
+               
+                <lable> Full Name </lable><br>
+                <input class="length" type="text" /><br>
+
+                <label>  Mobile Number.</label></br>
+                <input class="length" type=" number" /></br>
+                <label> Type your Email</label></br>
+                <input class="length" type="email" /></br>
+                <label> Confirm your password</label></br>
+                <input class="length" type=" password" /></br>
+
+                <button id="butn">Login</button>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

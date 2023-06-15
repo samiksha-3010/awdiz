@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>meesho</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            border: 1px solid black;
+            width: 100%;
+          font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid black;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed ;
+            top: 0;
+            background-color: white;
+        }
+        #navbar>div:nth-child(1){
+            border: 1px solid black;
+            width: 15%;
+            height: 70px;
+
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            padding: 5px 10px 5px 10px;
+        }
+        #navbar>div:nth-child(2){
+            /* border: 1px solid black; */
+            width: 25%;
+             height: 30px;
+             margin-top: 15px;
+            border-radius: 1px; 
+            position: relative;
+        }
+        #navbar>div:nth-child(2)>input{
+           height: 100%;
+           width: 100%;
+           /* border: 1px solid blue; */
+            /* border: none;  */
+           outline: none;
+           margin-right: 35px;
+           font-size: small;
+           padding-left: 55px;  
+
+        }
+        #navbar>div:nth-child(2)>i{
+         position: absolute;
+         left: 5%;
+          top:15%;
+        }
+    
+        #navbar>div:nth-child(3){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            margin-top: 20px;
+        }
+        
+        #navbar>div:nth-child(4){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+           
+         }
+        #navbar>div:nth-child(4)>p{
+            align-items: center; 
+        }
+        #navbar>div:nth-child(5){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #body{
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+        }
+        #left{
+            border: 1px solid black;
+            width: 30%;
+
+        }
+        #left>h2,p{
+            text-align: center;
+            padding-bottom: 25px;
+            
+        }
+                 /* =====+++++++====== */
+         #topcetegory{
+            display: flex;
+            width: 100%;
+
+        }
+        #ceteegory{
+            border: 1px solid gray;
+            margin: auto;
+         
+            /* width: 90%; */
+            margin-top: 50px;
+
+        }
+        #ceteegory>div{
+            border-bottom: 1px solid gray;
+            margin: auto;
+           margin-top: 50px;
+           width: 90%; 
+        }
+        #right{
+            /* border: 1px solid black; */
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+             padding: 35px;
+            
+           
+         
+        }
+       #right>div{
+        /* border: 1px solid black; */
+        width: 18%;
+        height: 400px;
+       
+        
+       }
+       #right>div>img{
+        width: 100%;
+        height: 300px;
+       }
+    #right>div>p:nth-child(2){
+        text-align: center;
+        font-size: small;
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div id="screen">
+         <div id="navbar">
+        <div>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+
+        </div>
+        
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search by product more and brand more "/>
+           
+        </div>
+        <div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            Download App
+        </div>
+        <div>Become a Supplier </div>
+       
+        <div>
+            <i class="fa-regular fa-user"></i>
+            <p> <a href="./meeshoREG.html">peofile</a></p>
+                <i class="fa-solid fa-cart-shopping "></i>
+                    <p>cart</a> </p>
+        </div>
+    </div>
+    <div>
+  </div>
+
+
+        <div id="body">
+            <div id="left">
+                <h2>cotton silk sarees</h2>
+                <p>Showing 81-100 out of 10000 products</p>
+                    <!-- ===========+++++++========== -->
+
+                <div id="ceteegory">
+                     <div>
+                    <span>FILTERS  </br>1000+ Products
+                        </span>
+                </div>
+                   <div>
+                    <h4>Category</h4>
+                    <input type="checkbox"/>
+                    <span>Jumpsuits & Dungarees   <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                   <h4>Gender</h4>
+                   <div>Women</div>
+                </div>
+                 <div>
+                    
+                    <span>Fabric
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Colour
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                  <div>
+                    <span>Size
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Discount
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Range
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                 <div>
+                    <span>Price
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Combo
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Print Or Pattern Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Ornamentation
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Bottom Pattern Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Surface Styling
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Fit/ Shape
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                  <div>
+                    <span>Top Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Waist Rise
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Bottom Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span> Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+
+
+                </div>
+
+
+            </div>
+            <div id="right">
+                <div>
+                    <img src="https://images.meesho.com/images/products/207886624/lpi6d_400.webp"/>
+                  <span>  Aagyeyi Fabulous Sarees</span>
+                 <b>   ₹264 onwards</b>
+                 <p>   Free Delivery</p>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/148622320/wyenx_400.webp"/>
+                   <span> cotton silk saree</span>
+                   <b> ₹378</b>
+                    
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/6447575/7a301_400.webp"/>
+                    <span> Beautiful Cotton Silk Mustard lace border Saree With Blouse
+                    </span>
+                  <b>  ₹227</b>
+                    
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/156932278/pazz1_400.webp"/>
+                     <span>Siddhi Weaves Fashion Red Banarasi Silk Saree With Blouse Piece</span>
+                 <b> ₹393</b>
+ 
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/12745892/25b84_400.webp"/>
+                <span> Aishani Fabulous Sarees</span>
+                   <b> ₹312</b>
+                
+                    
+                <p>    20% off</p>
+                    
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/199387165/ot6kq_400.webp"/>
+                   <span> Dpathar-blue</span>
+                  <b>₹203</b>
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/208993874/3swl2_400.webp"/>
+                   <span> AC COTTON JURA ASSAMESE MEKHELA CHADOR</span>
+                    <b>  ₹470</b>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/60877542/quzdp_400.webp"/>
+                    <span>Fabwomen Mysore & Art Silk White Colored 
+                        </span>>
+                      <b>₹286</b>
+
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/124193137/0pwua_400.webp"/>
+                  <span>  Art Silk Grey Saree with Blouse</span>
+                  <b>  ₹265</b>
+                </div>
+                <div> 
+                    <img src="https://images.meesho.com/images/products/69820338/iz67x_400.webp"/>
+                    <span>silk sarees</span>>
+                       <b>₹234</b>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/296968094/m0lvs_400.webp"/>
+                  <span>ALL OVER SOFT DHAKAI JAMDANI</span>
+                 <b> ₹806</b>
+                   <p> Free Delivery</p>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/6447534/3a294_400.webp"/>
+                    <span>ALL OVER SOFT DHAKAI JAMDANI</span>
+                    <b> ₹806</b>
+                      <p> Free Delivery</p>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/101858686/qkb57_400.webp"/>
+                    <span>silk sarees</span>>
+                    <b>₹234</b>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/108202038/gmczy_400.webp"/>
+                    <span>RED HEAVY ZARI SATIN SAREE WITH BLOUSEPIECE</span>
+                      <b>₹403</b>
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/297299676/kzgmy_400.webp"/>
+                    <span>ALL OVER SOFT DHAKAI JAMDANI</span>
+                    <b> ₹806</b>
+                      <p> Free Delivery</p>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/99652976/uclm4_400.webp "/>
+                    <span>RED HEAVY ZARI SATIN SAREE WITH BLOUSEPIECE</span>
+                      <b>₹403</b>
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/207886624/lpi6d_400.webp"/>
+                    <span>  Aagyeyi Fabulous Sarees</span>
+                   <b>   ₹264 onwards</b>
+                   <p>   Free Delivery</p>
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/60877542/quzdp_400.webp"/>
+                    <span>Fabwomen Mysore & Art Silk White Colored 
+                        </span>>
+                      <b>₹286</b>
+
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/149426590/dougv_400.webp"/>
+                       <span>                    Sarvasva Women's Elegant Floral Digital Printed Saree with Unstitched Blouse</span>
+                   <b> ₹334</b>
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/297299676/kzgmy_400.webp"/>
+                    <span>ALL OVER SOFT DHAKAI JAMDANI</span>
+                    <b> ₹806</b>
+                      <p> Free Delivery</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

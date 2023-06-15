@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men</title>
+ <style>
+        *{  margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            border: 1px solid black;
+            width: 100%;
+          font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid black;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed ;
+            top: 0;
+            background-color: white;
+        }
+        #navbar>div:nth-child(1){
+            border: 1px solid black;
+            width: 15%;
+            height: 70px;
+
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            padding: 5px 10px 5px 10px;
+        }
+        #navbar>div:nth-child(2){
+            /* border: 1px solid black; */
+            width: 25%;
+             height: 30px;
+             margin-top: 15px;
+            border-radius: 1px; 
+            position: relative;
+        }
+        #navbar>div:nth-child(2)>input{
+           height: 100%;
+           width: 100%;
+           /* border: 1px solid blue; */
+            /* border: none;  */
+           outline: none;
+           margin-right: 35px;
+           font-size: small;
+           padding-left: 55px;  
+
+        }
+        #navbar>div:nth-child(2)>i{
+         position: absolute;
+         left: 5%;
+          top:15%;
+        }
+    
+        #navbar>div:nth-child(3){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            margin-top: 20px;
+        }
+        
+        #navbar>div:nth-child(4){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+           
+         }
+        #navbar>div:nth-child(4)>p{
+            align-items: center; 
+        }
+        #navbar>div:nth-child(5){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        #body{
+            border: 1px solid black;
+            width: 100%;
+            margin-top: 65px;
+        
+        }
+        #left{
+            border: 1px solid black;
+            width: 30%;
+          
+
+        }
+        #left>h2,p{
+            text-align: center;
+            padding-bottom: 25px;
+            
+        }
+        /* #short{
+            border: 1px solid black;
+            text-align: center;
+            font-size: 15px;
+            height: 40px;
+            width: 60%;
+            margin: auto;
+            font-weight: bold;
+            padding-top: 10px;
+        } */
+        #topcetegory{
+            display: flex;
+            width: 100%;
+
+        }
+        #ceteegory{
+            border: 1px solid gray;
+            margin: auto;
+         
+            /* width: 90%; */
+            margin-top: 50px;
+
+        }
+        #ceteegory>div{
+            border-bottom: 1px solid gray;
+            margin: auto;
+           margin-top: 50px;
+           width: 90%; 
+        }
+        
+        #right{
+            /* border: 1px solid black; */
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+             padding: 35px;
+            
+           
+         
+        }
+        #right>div{
+        /* border: 1px solid black; */
+        width: 23%;
+        height: 400px; 
+       }
+       #right>div>img{
+        width: 100%;
+        height: 300px;
+       }
+       #right>div>p{ 
+        margin: 0px;
+        font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: left;
+
+
+       }
+ </style>
+</head>
+<body>
+    <div id="screen">
+        <navbar id="navbar">
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+                
+
+
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search by product more and brand more "/>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                Download App
+            </div>
+            <div>Become a Supplier </div>
+           
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <p> <a href="./meeshoREG.html">peofile</a></p>
+                    <i class="fa-solid fa-cart-shopping "></i>
+                        <p>cart</a> </p>
+            </div>
+        </div>
+
+    </navbar>
+    <div id="body">
+           
+            <div id="topcetegory">
+                <div id="left">
+                    <h2>Beauty Product</h2>
+                    <p>Showing 81-100 out of 10000 products</p> 
+            <div id="ceteegory">
+                <div>
+                    <span>FILTERS  </br>1000+ Products
+                        </span>
+                </div>
+                <div>
+                    <h4>Category</h4>
+                    <input type="checkbox"/>
+                    <span>Meesho Mall  <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                     <h4>gender</h4>
+                   <div>Women</div>
+                
+                   <div>Girl</div>
+                   <div>Men</div>
+                 
+                </div>
+                <div>
+                <span>Colour
+                    <select style="border: none;color: gray;">
+                    <option style="border: none;"></option></select></span>
+
+            </div>
+               
+                <div>
+                    
+                    <span>Fabric
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+               
+                    
+                <div>
+                    <span>Size
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Discount
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Range
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Price
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Combo
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Print Or Pattern Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Ornamentation
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+
+                </div>
+                <div>
+                    <span>Bottom Pattern Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Surface Styling
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Fit/ Shape
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Top Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Waist Rise
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span>Bottom Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+                <div>
+                    <span> Type
+                        <select style="border: none;color: gray;">
+                        <option style="border: none;"></option></select></span>
+                </div>
+               
+        </div>
+    </div>
+
+
+        <div id="right">
+            <div >
+                <img src="https://images.meesho.com/images/products/53262026/whihx_400.webp"/>
+
+                <p> New Cellocation</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/56840018/amqfs_400.webp"/>
+                 
+                <p> Twinkle fashion</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/64403453/ztrgb_400.webp"/>
+                <p>Beauty and Makeup</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/289887002/vhjko_400.webp"/>
+                <p> korien Classic</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/287339125/rts8u_400.webp"/>
+                <p> Unike eyeMakeup</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/212490920/lapqd_400.webp"/>
+                <p> Primium Super</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/196812606/aagj1_400.webp"/>
+                <p> MyGlamm</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+              
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/117766346/kwek5_512.webp"/>
+                <p> Makeup fixer</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/186555283/4nhgc_512.webp"/>
+                <p> TUnike facemask</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+                
+               
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/207965003/llei4_400.webp"/>
+                <p>Clasiss EYEMakeup</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+               
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/288027530/e4zxn_400.webp"/>
+                <p> New Coolection</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+               
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/275776347/zhaxs_400.webp"/>
+                <p> Daily use face mask</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+             
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/232649714/y6hx3_400.webp"/>
+                <p> Use Full Face mask</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+             
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/254028582/h1ibs_400.webp"/>
+                <p> Unike Facemask</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+               
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/230906302/kajcn_400.webp"/>
+                <p> Everday care</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+             
+                
+            </div>
+            <div >
+                <img src="https://images.meesho.com/images/products/56840018/amqfs_400.webp"/>
+                <p> Twinkle fashion</br>
+                    <b> ₹656 onwards</b></br>
+                    <span>Free Delivery</span></p>
+
+            
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>

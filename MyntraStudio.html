@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
     <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ajio</title>
+    <title>Ajio home</title>
     <style>
         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        #screen{
+        #scren{
             width: 100%;
-            /* height: 800px; */
             border: 1px solid black;
         }
         #navbar{
@@ -28,12 +27,15 @@
         #logo{
             width: 20%;
             height:70px ;
-            /* border: 1px solid black; */
+            border: 1px solid black; 
+        }
+        #logo>img{
+            margin-right: 35px 0px;
         }
         #product{
             width: 30%;
             height:70px ;
-            /* border: 1px solid black; */
+            border: 1px solid black;
             display: flex;
             justify-content: space-around;
         }
@@ -44,79 +46,70 @@
         #search{
             width: 18%;
             height:70px ;
-            /* border: 1px solid black; */
-        }
-        #search>div{
             border: 1px solid black;
-            margin-top: 15px;
-            background-color: bisque; 
         }
-
-        #logo2{
+        #icon{
             width: 15%;
             height:70px ;
             /* border: 1px solid black; */
             display: flex;
             justify-content: space space-between;
         }
-        #logo2>i{
-            margin: auto;
-            
-        }
-    
-        #body{
-            /* border: 1px solid black; */
-            width: 100%;
-            height: 100px;
-        }
-        #body>img{
-            margin-bottom: 20px;
-
-        }
         #homepage{
             border: 1px solid black;
+            width: 100%;
+            height: 200px;
+        }
+        #homepage2{
+            border: 1px solid red;
+            width: 100%;
         }
     </style>
 </head>
 <body>
     <div id="screen">
         <div id="navbar">
-            
-        <div id="logo">
-            <img style="width: 90%;height: 60px;" src="https://tse3.mm.bing.net/th?id=OIP._wxbiOB3-wa3I-t8ix7QzwHaCg&pid=Api&P=0&h=180"/>
+            <div id="logo">
+                <div id="logo">
+                    <img style="width: 100%;height: 60px;" src="https://tse3.mm.bing.net/th?id=OIP._wxbiOB3-wa3I-t8ix7QzwHaCg&pid=Api&P=0&h=180"/>
+                </div>
+
+            </div>
+            <div id="product">
+                <p>Mens</p>
+                <p>Women</p>
+                <p>Kids</p>
+                <p>India</p>
+                <p>Home & Kitchen</p>
+
+            </div>
+            <div id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="search AJIO"/>
+            </div>
+            <div>icon
+
+            </div>
         </div>
-        <div id="product">
-            <p>Mens</p>
-            <p>Women</p>
-            <p>Kids</p>
-            <p>India</p>
-            <p>Home & Kitchen</p>
-        </div>
-        <div id="search">
-            <p>Sign/in join Ajio  custmer care</p>
-            <div>
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="search" placeholder="search AJIO"/>
-        </div>
-     </div>
-        <div id="logo2">
-        
+        <div id="icon">
             <i class="fa-regular fa-heart fa-2xl"></i>
         
             <i class="fa-solid fa-bag-shopping fa-2xl"></i>
-        </div>
-       </div>
-    </div>
-    </div>
-     <div id="body"></div>
-           <img style="width:100% ; height: 500px;"   src="https://assets.ajio.com/static/img/404.jpg"/> 
-    
-    </div>
-    <div id="homepage"></div>
 
-</div>
-    
-</div>
-</div> 
+        </div>
+        <div id="homepage">
+            <div>
+                <img src="https://assets.ajio.com/cms/AJIO/WEB/09062023-UHP-D-UrgencyStrips-Last2.gif"/>
+            </div>
+            <div>
+                <img src="https://assets.ajio.com/cms/AJIO/WEB/01062023-UHP-Sponsorbrands-D-Sectionheader.jpg"/>
+
+            </div>
+            <div id="homepage2">
+                <img src=""/>
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>

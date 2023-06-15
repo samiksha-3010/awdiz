@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra beauty</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            border: 1px solid black;
+        }
+        #body{
+            width: 100%;
+            border: 1px solid black;
+            height: 150px;
+        }
+        #body>p{
+            margin-bottom: 25px;
+        
+        }#filter{
+            display: flex;
+            justify-content: space-between;
+        }
+        #filter>span{
+            color: gray;
+        }
+        #filter>div{
+            border: 1px solid black;
+            height: 20px;
+        }
+        #leftright{
+            border: 1px solid blak;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+         }
+         #left{
+            border: 1px solid;
+            width: 25%;
+            
+         }
+         #box1{
+        border-bottom: 1px solid gray;
+        margin: 20px;
+        
+       }
+         #box2{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+       }
+        #box2>p{
+        color:red;
+        padding-bottom: 20px;
+       }
+        #box3{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+
+       }
+       #box3>p{
+        color:red;
+        padding-bottom: 20px;
+        }
+        #box4{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+
+       }
+       #box4>p{
+        color:red;
+        padding-bottom: 20px;
+        }
+         #box4>span{  
+        width: 12px;
+            height: 12px;
+             border-radius: 50%;
+             display: inline-block;
+             /* margin-right: 8px; */
+              margin-left: 8px;
+        }
+          #box5{
+        border-bottom: 1px solid gray;
+        font-size: small;
+        margin:20px ;
+
+       } 
+       #right{
+            border: 1px solid black;
+            width: 70%;
+             display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+         }  
+         #right>div{
+        width: 18%;
+        height: 400px;
+         border: 1px solid black; 
+       }  
+       #right>div>img{
+        width: 100%;
+        height: 280px;
+       }
+       #img>span>b{
+        color: pink;
+       }
+
+    
+
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="body">
+            <p> HomePersonal/ CareFace <b> Moisturisers</b></p>
+            <p><b>Moisturiser Online</b>
+             - 24319 items</p>
+             <div id="filter">
+                 <h4>FILTERS</h4>
+                 <span>Moisturisers
+                    <select style="border: none; color: gray; width: 50px;">
+                        <option style="border: none;"></option></select></span>
+                    <span>Bundel
+                    <select style="border: none; color: gray; width: 50px;">
+                        <option style="border: none;"></option></select></span>
+                    <span>Colour shade Name
+                        <select style="border: none; color: gray; width: 50px;">
+                            <option style="border: none;"></option></select></span>
+        
+                    <span>
+                        <select style="border: none; color: gray; width: 50px;">
+                            <option style="border: none;"></option></select></span>
+        
+                    <span>Concern <select style="border: none; color: gray; width: 50px;">
+                        <option style="border: none;"></option></select></span>
+        
+                    <span>concern2 <select style="border: none; color: gray; width: 50px;">
+                        <option style="border: none;"></option></select></span>
+        
+                    <span>Country of orgin<select style="border: none; color: gray; width: 50px;">
+                        <option style="border: none;"></option></select></span>
+        
+                        <span>Farmulation<select style="border: none; color: gray; width: 50px;">
+                            <option style="border: none;"></option></select></span>
+                            <div>
+                                <p>Short by : Recommnened
+                                <select style="border: none; color: gray; width: 50px;">
+                                    <option style="border: none;"></option></select></p>
+                                
+                         </div>
+
+        </div>
+
+    </div>
+    <div id="leftright">
+        <div id="left">
+            <div id="box1">
+                <input type="radio"/>
+                <label>Men</label></br>
+                <input type="radio"/>
+                <label>Women</label></br>
+                <input type="radio"/>
+                <label>Girl</label></br>
+                <input type="radio"/>
+                <label>Boys,</label>
+    
+                </div>
+                <div id="box2">
+                    <h4>BRAND</h4>
+                    <input type="checkbox"/>
+                    <labe>Arrabi<span>(3005) </span> </labe></br>
+                    <input type="checkbox"/>
+                    <labe>  KLOTTHE<span>(2883)</span> JC Collection(2328)</labe></br>
+                    <input type="checkbox"/>
+                    <labe>  SWAYAM<span>(917)</span></labe></br>
+                    <input type="checkbox"/>
+                    <labe> CHHAVI INDIA<span>(640)</span></labe></br>
+                    <input type="checkbox"/>
+                    <labe> Sleeping Owls- because your sleep matters<span>(568)</span></labe></br>
+                    <input type="checkbox"/>
+                    <labe>  DDecor<span>(540)</span></labe></br>
+                    <input type="checkbox"/>
+                    <labe> BELLA CASA<span>(538)</span></labe></br>
+                    <input type="checkbox"/>
+                    <labe> BELLA CASA<span>(538)</span></labe></br>
+                    <p>23+More</p>
+                </div>
+                <div id="box3">
+                    <h4>PRICE</h4>
+                    <input type="checkbox"/>
+                    <label>Rs. 199 to Rs. 3349(23820) </label></br>
+                    <input type="checkbox"/>
+                    <label> Rs. 3349 to Rs. 6499(469)</label></br>
+                    <input type="checkbox"/>
+                    <label>  Rs. 6499 to Rs. 9649(17)</label></br>
+                    <input type="checkbox"/>
+                    <label> Rs. 9649 to Rs. 12799(1)</label></br>
+                    <P>219+more</P>
+    
+                </div>
+                <div id="box4">
+                    <h2>COLOR</h2>
+                    <input type="checkbox"/>
+                    <span style="background-color: black;"></span>
+                    <label>Black</label></br>
+                    <input type="checkbox"/>
+                    <span style="background-color: red;"></span>
+                    <label>Red</label></br>
+                    <input type="checkbox"/>
+                    <span style="background-color: blue;"></span>
+                    <label>Blue</label></br>
+                    <input type="checkbox"/>
+                    <span  style="background-color: green;"></span>
+                    <label>Green</label></br>
+                    <input type="checkbox"/>
+                    <span  style="background-color: brown;"></span>
+                    <label>Brown</label></br>
+                    <input type="checkbox"/>
+                    <span style="background-color: yellow;"></span>
+                    <label>Yellow</label></br>
+                    <input type="checkbox"/>
+                    <span style="background-color: green;"></span>
+                    <label>Green</label></br>
+                    <p> +33more</p>
+    
+    
+                </div>
+                <div id="box4">
+                    <h2>DISCOUNT</h2>
+                    <input type="radio" />
+                           
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                        <input type="radio" />
+                        <label>30% and above</label><br />
+                </div>
+        </div>
+        <div id="right">
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2273976/2022/3/15/076df8de-43ff-443d-955e-4192b753a2941647321717754-Nivea-Soft-Light-Moisturizer-with-Vitamin-E-100ml-1101647321-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+
+            
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2273976/2022/3/15/076df8de-43ff-443d-955e-4192b753a2941647321717754-Nivea-Soft-Light-Moisturizer-with-Vitamin-E-100ml-1101647321-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/4384871/2022/6/9/593a1bfd-a2ea-4272-a729-24716a8d7d271654767162871-Lakme-Absolute-Perfect-Radiance-Skin-Lightening-Day-Creme-15-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+               <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+               <span>Lotion</span>
+                
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1661472/2022/4/14/a5ab3089-fd61-4a53-9085-37c48e01441c1649936148486-Biotique-Bio-Morning-Nectar-Flawless-Sustainable-Skin-Lotion-1.jpg"/>
+                <span> Garnier</span>
+             <span> Sizes: 45G</span>
+                  <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+                
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15506300/2021/10/5/17015c40-a77c-42cf-b1fd-52c9ae3b24aa1633428447717-Lakme-Women-Face-Moisturisers-5521633428447579-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+                
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22732494/2023/4/12/01e54749-eecf-4d35-af35-b07ae09639cd1681289303493UstraaMenComboOfDe-TanAnti-AgingNightCream50gFaceStubbleLoti1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/65271/2022/6/9/2f6a693d-ce71-41c5-9b7f-2c778b648f1e1654778860362-Nivea-Soft-Cream-Light-Moisturizer-200-ml-7401654778859759-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/65271/2022/6/9/2f6a693d-ce71-41c5-9b7f-2c778b648f1e1654778860362-Nivea-Soft-Cream-Light-Moisturizer-200-ml-7401654778859759-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/57677/2020/10/10/90dae682-fcf2-4436-b291-954e3c40af0e1602269668338LotusHerbalsSustainableWhiteglowSkinWhiteningBrighteningCrem1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15506300/2021/10/5/17015c40-a77c-42cf-b1fd-52c9ae3b24aa1633428447717-Lakme-Women-Face-Moisturisers-5521633428447579-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+                
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1661472/2022/4/14/a5ab3089-fd61-4a53-9085-37c48e01441c1649936148486-Biotique-Bio-Morning-Nectar-Flawless-Sustainable-Skin-Lotion-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+
+
+
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/4384871/2022/6/9/593a1bfd-a2ea-4272-a729-24716a8d7d271654767162871-Lakme-Absolute-Perfect-Radiance-Skin-Lightening-Day-Creme-15-1.jpg"/>
+                <span> Garnier</span>
+                <span> Sizes: 45G</span>
+                     <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2273976/2022/3/15/076df8de-43ff-443d-955e-4192b753a2941647321717754-Nivea-Soft-Light-Moisturizer-with-Vitamin-E-100ml-1101647321-1.jpg"/>
+                 <span> Garnier</span>
+             <span> Sizes: 45G</span>
+                  <span>Rs. 149Rs. <b>199(25% OFF)</b></span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2273976/2022/3/15/076df8de-43ff-443d-955e-4192b753a2941647321717754-Nivea-Soft-Light-Moisturizer-with-Vitamin-E-100ml-1101647321-1.jpg"/>
+              <span>  Nivea</span>
+                <span>Soft Light Moisturizer</span>
+               <span> Rs.132 <b>(40% OFF)</b></span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22732494/2023/4/12/01e54749-eecf-4d35-af35-b07ae09639cd1681289303493UstraaMenComboOfDe-TanAnti-AgingNightCream50gFaceStubbleLoti1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1254193/2018/2/9/11518176038305-Lakme-Women-Face-Moisturisers-811518176038292-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7337801/2023/2/24/f9b2e157-4fd3-4406-a140-efda6b7c3c051677220887828-Garnier-Men-Acno-Fight-Pimple-Clearing-Whitening-Cream-with--1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7337801/2023/2/24/f9b2e157-4fd3-4406-a140-efda6b7c3c051677220887828-Garnier-Men-Acno-Fight-Pimple-Clearing-Whitening-Cream-with--1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1254193/2018/2/9/11518176038305-Lakme-Women-Face-Moisturisers-811518176038292-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7337801/2023/2/24/f9b2e157-4fd3-4406-a140-efda6b7c3c051677220887828-Garnier-Men-Acno-Fight-Pimple-Clearing-Whitening-Cream-with--1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/57677/2020/10/10/90dae682-fcf2-4436-b291-954e3c40af0e1602269668338LotusHerbalsSustainableWhiteglowSkinWhiteningBrighteningCrem1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/65271/2022/6/9/2f6a693d-ce71-41c5-9b7f-2c778b648f1e1654778860362-Nivea-Soft-Cream-Light-Moisturizer-200-ml-7401654778859759-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/65271/2022/6/9/2f6a693d-ce71-41c5-9b7f-2c778b648f1e1654778860362-Nivea-Soft-Cream-Light-Moisturizer-200-ml-7401654778859759-1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/22732494/2023/4/12/01e54749-eecf-4d35-af35-b07ae09639cd1681289303493UstraaMenComboOfDe-TanAnti-AgingNightCream50gFaceStubbleLoti1.jpg"/>
+                <span>Sizes: 15GMS</span>
+                <span> Rs. 99Rs. 110<b>(10% OFF)</b></span>
+                <span>Lotion</span>
+            </div>
+            <div></div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>

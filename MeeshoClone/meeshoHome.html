@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meesho</title>
+</head>
+<body>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            border: 1px solid black;
+           
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid black;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            /* position: fixed; */
+            background-color: white;
+        }
+        #navbar>div:nth-child(1){
+            border: 1px solid black;
+            width: 15%;
+            height: 70px;
+
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            padding: 5px 10px 5px 10px;
+        }
+        #navbar>div:nth-child(2){
+            /* border: 1px solid black; */
+            width: 25%;
+             height: 30px;
+             margin-top: 15px;
+            border-radius: 1px; 
+            position: relative;
+        }
+        #navbar>div:nth-child(2)>input{
+           height: 100%;
+           width: 100%;
+           /* border: 1px solid blue; */
+            /* border: none;  */
+           outline: none;
+           margin-right: 35px;
+           font-size: small;
+           padding-left: 55px;  
+
+        }
+        #navbar>div:nth-child(2)>i{
+         position: absolute;
+         left: 5%;
+          top:15%;
+        }
+    
+        #navbar>div:nth-child(3){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            margin-top: 20px;
+        }
+        
+        #navbar>div:nth-child(4){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+           
+         }
+        #navbar>div:nth-child(4)>p{
+            align-items: center; 
+        }
+        #navbar>div:nth-child(5){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        #navbar2{
+        width: 100%;
+        height: 70px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+       }
+       #homepage{
+        border: 1px solid black;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        gap: 15px;
+       }
+       #left{
+        border: 1px solid black;
+        width: 40%;
+        height: 100%;
+       }
+       #left1{
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+       }
+       #left2{
+        /* border: 1px solid black; */
+        margin: auto;
+        height:70px;
+        margin-top: 100px;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 15px;
+        background-color:#ffffff ;
+
+       }
+       #button{
+        border: 1px solid black;
+        width: 60%;
+        margin: auto;
+        margin: 45px;
+        margin-left: 50px;
+        background-color:#9f2089 ;
+        height: 60px;
+       }
+       #right{
+        border: 1px solid black;
+        width: 40%;
+        height: 100%;
+        margin-right: 35px;
+       
+       }
+       #right>img{
+         /* margin: auto;
+        padding-top: 35px;
+        padding-left: 35px; */
+        width: 100%;
+        height: 100%;
+
+
+       }
+       #body{
+        border: 1px solid black;
+        width: 100%;
+        
+       }
+       #body>p{
+        text-align: center;
+        font-size: 50px;
+        border-left: 20px;
+        gap: 15px;
+        
+       }
+       #Cetoriges{
+        width: 75%;
+        border: 1px solid black;
+        background-color: pink;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        
+
+       }
+
+       #Left{
+        border: 1px solid black;
+        
+       }
+       #Right{
+        display: flex;
+        justify-content: space-around;
+        
+       }
+        #Right>img{
+            width: 100%;
+            height:70% ;
+            padding-top: 90px;
+            margin-bottom: 60px;
+
+        }
+        #productMore{
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #productinfo{
+            width: 30%;
+            border: 1px solid black;
+        }
+        #productinfo>p{
+            font-size: 30px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        #images{
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 65%;
+        }
+        #images>div{
+            border: 1px solid black;
+            width: 21%;
+            height: 380px;
+            
+
+        }
+        #images>div>img{
+            width: 100%;
+            height:280px ;
+        }
+        #footer{
+            width: 100%;
+            border: 1px solid black;
+        }
+        
+
+    </style>
+    <div id="screen">
+        <div id="navbar">
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search by product more and brand more "/>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                Download App
+            </div>
+            <div>Become a Supplier </div>
+           
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <p> <a href="./meeshoREG.html">peofile</a></p>
+                    <i class="fa-solid fa-cart-shopping "></i>
+                        <p>>cart</a> </p>
+            </div>
+        </div>
+        <div>
+      </div>
+        <div id="navbar2">
+            <p>Women Ethnic</p> 
+            <p>Women Western</p>
+            <p>Men</p>
+            <p>Kids</p>
+            <p>Home & Kitchen</p>
+            <p>Beauty & Health</p>
+            <p>Beauty & Health</p>
+            <p>Jewellery & Accessories</p>
+            <p>Bags & Footwear</p>
+            <p>Electronics</p>
+        </div>
+        <div id="homepage">
+             <div id="left">
+                <div id="left1">
+                  <h2>Lowest Prices
+                    Best Quality Shopping</h2>
+                    <div id="left2">
+                        <i class="fa-light fa-truck"></i>
+                        <p>Free Delivary</p>
+                        <i class="fa-regular fa-money-bill-wave"></i>
+                        <p>Cash on Delivary</p>
+                        <i class="fa-sharp fa-light fa-bag-shopping"></i>
+                        <p>Easy Return</p>
+
+                    </div>
+                    <div id="button">
+                    <button>Download the Meesho App</button>
+                </div>
+                </div>
+             </div>
+              <div id="right">
+                <img src="https://images.meesho.com/images/marketing/1686234459500_512.webp"/>
+              </div>
+        </div>
+        <div id="body">
+            <p>Top Categories to choose from</p>
+            <div id="Cetoriges">
+               
+                
+            <div id="Left">
+
+                <!-- <p>Fashion Farword</p> -->
+                <img src="https://images.meesho.com/images/marketing/1678691686252_400.webp"/>
+            </div>
+            <div id="Right">
+            <img src="https://images.meesho.com/images/marketing/1678691699680_300.webp"/>
+
+            <img src=" https://images.meesho.com/images/marketing/1678691712594_300.webp"/>
+        </div>
+    </div>
+    </div>
+    <div id="brand">
+        <p></p>
+
+    </div>
+    <div id="productMore">
+        <div id="productinfo">
+              <p>Products For You</p>
+              
+        </div>
+        <div id="images">
+            <div>
+                <img src="https://images.meesho.com/images/products/22486015/1a522_400.webp"/>
+                Boys Multicolor Cotton Shorts & Capris Pack Of 5
+                  ₹322
+                  10% off
+               70784 Ratings, 11566 Reviews
+  
+     </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/212257521/iq5rb_400.webp"/>
+                Baby Diaper Pants with Double Leakage Protection  
+                ₹584
+                4% off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/103713364/0ioi6_400.webp"/>
+                Urbane Latest Women Dresses
+                ₹199
+                10% off
+                
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/31536766/ltqhe_400.webp"/>
+                Red Edition Red Maroon Matte Longlasting  (Set of 4)
+                ₹110
+                23% off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/59578636/7to43_400.webp"/>
+                M19 wireless bluetooth and heaphones V5.1 Bluetooth eName: 
+                ₹299
+                10% off
+            </div>
+            <div>
+                  <img src="https://images.meesho.com/images/products/21005838/yd1tm_400.webp"/>
+                  Super Saver Dhamakaa Offer- Saree Cover 
+                  ₹153
+                  43% off
+                  
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/258551943/bdhjy_400.webp"/>
+                STYLISH WOMEN WATCH
+                ₹137
+                 50%  off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/199365015/j0hr7_400.webp"/>
+                Unique Trendy Women Flipflops & Slippers
+                ₹213 onwards
+                30%  off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/140598388/ailwc_400.webp"/>
+                sporty tshirt for men
+                ₹191
+                60% off
+                
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/132732628/3pbtc_400.webp"/>
+                      Key Holder
+                      ₹191
+                      60% off
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/42182017/gtwro_400.webp"/>
+                Stylish Designer Women Shirts
+                    ₹277
+                    60% off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/119140062/1yz6y_400.webp"/>
+                Trendy Modern Women Tshirts
+                ₹159
+                90% off
+                
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/147541464/xdiot_400.webp"/>
+                Shivam Creation's fridge cover combo set of 5 peices 1 fride top cover , 3 mats (wineleaf)
+                ₹129
+                50% off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/42958844/zzzh2_400.webp"/>
+                Farbot Men Fashion Round Solid Black Tshirts
+                ₹219
+                40% off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/296573191/1tjwx_400.webp"/>
+                Lightweight Casual Waterproof 
+                ₹379
+                50%  off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/214201616/dl9ym_400.webp"/>
+               Stylesh Key Holder
+               ₹379
+               50%  off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/99771667/i46dp_400.webp"/>
+                HNB23 Makeup Beauty Kajal & 3in1 Eyeliner
+                   ₹152
+                   50%  off
+  
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/287562063/uhrry_400.webp"/>
+                     Fancy Tshirt
+                     ₹152
+                   50%  off
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/98667462/i0q8q_400.webp"/>
+                Waall hook
+                ₹152
+                50%  off
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/284621073/dbnyy_400.webp"/>
+                Diva Fusion Mangalsutras
+                   ₹55
+
+            </div>
+        </div>
+      
+    </div>
+    <div id="footer">footer
+
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra</title>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+             box-sizing: border-box;
+        }
+        #screen{
+            width: 100%;
+            border: 1px solid black;
+        }
+        #navbar {
+            border: 2px solid red;
+            width: 100%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            top: 0;
+            background-color: white;
+            
+        }
+        #logo{
+            /* border: 2px solid black; */
+            width: 13%;
+            height: 50px;
+            text-align: center;
+            
+        }
+        #navi{
+            /* border: 2px solid black; */
+            width: 29%;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 20px;
+
+        }
+        #search{
+            border: 1px solid black;
+            width: 25%;
+            height: 40px;
+            position: relative;
+            /* padding-top: 20px; */
+            margin-top: 15px;
+        }
+        #search>i{
+            position: absolute;
+            top: 12px;
+            left: 5px;
+        }
+        #search>input{
+            height: 100%;
+            width: 100%;
+            padding-left: 25px;
+            /* padding-top: 20px; */
+        }
+        #logo2{
+            /* border: 2px solid black; */
+            width: 20%;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            padding-top: 25px;
+        }
+        #logo2>i{
+            position: absolute;
+            top: 12px;
+            left: 5px;
+        }
+       
+        #product{
+            width: 100%;
+            border: 1px solid black;
+            /* height: 800px; */
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+           
+        }
+       
+
+         #wish{
+            /* border: 2px solid red; */
+            height: 70px;
+            
+        } 
+        #wish>p,b{
+            margin-left: 20px;
+            font-size: large;
+        }
+        #product>div{
+            width: 18%;
+            /* border: 1px solid black; */
+            height: 420px;
+            margin-top:30px ;
+        }
+        #product>div>img{
+            width:100% ;
+            height: 300px;
+
+           
+        }
+        #footer{
+            border: 1px solid black;
+            width: 100%;
+            height: 500px;
+        }
+
+        #product>div>span:nth-child(2){
+            font-size: small;
+        }
+
+        #product>div>div:nth-child(5){
+            border: 1px solid black; 
+            color: red;
+             text-align: center; 
+             height: 25px;width: 100%;
+            
+        }
+    
+       
+
+    </style>
+</head>
+<body>
+        <div id="screen">
+            <div id="navbar">
+                <div id="logo">
+                    <img style="width: 20%; height: 70px;" src="https://img.theweek.in/content/dam/week/news/myntra.jpg"/>
+                </div>
+                <div id="navi">
+                    
+                    <p> <a href="./myntra Men.html">Men,s</a></p>
+                    <p> <a href="./myntraWomen.html">Women,s</a></p>
+                    <p> <a href="./myntra Kids.html">kid,s</a></p>
+                    <p> <a href="./myntrakitchen Home.html">Home & Living</a></p>
+                    <p> <a href="./myntraBeauty.html">Beauty</a></p>
+                    <p>Studio</p>
+                </div>
+                
+                <div id="search">
+    
+                    <i class="fa-solid fa-magnifying-glass "></i> 
+                    <input type="search" placeholder="serach for product and brands more"/>  
+                </div>
+                <div id="logo2">
+                    <div>
+                        <i class="fa-regular fa-user "></i>
+                        <p>Profile</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bag-shopping "></i>
+                        <p>Bag</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star "></i>
+                       <p>Wishlist</p>
+                    </div>
+                </div>
+            </div>
+           
+        <div id="wish">
+            <p><b>My Wishlist</b> 28 items</p>
+         </div>  
+        <div id="product">
+                 
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/4110852/2018/8/7/871b8141-9533-4c32-bc39-0dc9d15919a31533627045977-Mast--Harbour-Men-Trousers-9771533627045808-1.jpg"/>
+                <p>Mast & Harbour Men Beige Slim Fit Chinos </p> 
+                <span><b>Rs.859 </b> </span>
+                <span>999</span><span >(57% OFF)</span>
+                <div > MOVE TO BAG</div>
+               
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/4110852/2018/8/7/871b8141-9533-4c32-bc39-0dc9d15919a31533627045977-Mast--Harbour-Men-Trousers-9771533627045808-1.jpg"/>
+                <!-- <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span><span style="color: red; padding-left:20px;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%; border-top: 1px solid black;"> MOVE TO BAG</div>
+                -->
+                <p>Mast & Harbour Men Beige Slim Fit Chinos </p> 
+                <span><b>Rs.859 </b> </span>
+                <span>999</span><span >(57% OFF)</span>
+                <div > MOVE TO BAG</div>
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/16483800/2021/12/11/0d95b056-2ae8-44fa-b41f-46a06a4451fc1639210334567TokyoTalkiesWomenBurgundyStraightFitCargosTrousers1.jpg"/>
+                <p>Tokyo Talkies Women Burgundy Strai</p>
+                <span><b>Rs.859 </b> </span>
+                <span>999</span><span >(57% OFF)</span>
+                <div> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/productimage/2021/4/9/482a06af-57b5-493f-989a-d3e72878ca671617971130118-1.jpg"/>
+                <p>Mast & Harbour Men Beige Slim Fit Chinos </p> 
+                <span><b>Rs.859 </b> </span>
+                <span>999</span><span >(57% OFF)</span>
+                <div> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/productimage/2021/4/9/482a06af-57b5-493f-989a-d3e72878ca671617971130118-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red; padding-left: 20px;">(57% OFF)</span>
+                <div style="border:  1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/12193038/2021/2/3/1fd948fa-384a-4afc-ab91-1d77221cad581612350419353-Roadster-Women-Mauve-Printed-Round-Neck-T-shirt-942161235041-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border:  1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div> <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/19959856/2022/9/17/1defe6d5-f29c-4ca0-a315-8c92602524d11663416196597-Roadster-Women-Shirts-2551663416196016-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span><span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div> 
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/18131022/2022/9/21/a003ab44-79aa-4ad7-80d7-88ce37c083081663757797092-Harvard-Women-White-Gingham-Checks-Checked-Casual-Shirt-9616-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/9064597/2021/5/21/7f033a1c-8b50-4b54-92f6-605960e3f8da1621593258430BlueGiraffeBoysRedRegularFitPrintedCasualShirt1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/20500850/2022/10/22/e1f9e22b-43c5-4d09-b8ff-b0ed6181a1e61666439207776BoysCasualPrintedShirt1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div> <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/17579358/2022/11/29/353c2892-305e-4c34-86c4-b741da80fae71669723936383-Mast--Harbour-Men-Blue-Pure-Cotton-T-shirt-7291669723936060-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/3881074/2019/8/22/988836a1-a96e-40b8-b1a0-d63c45e168ce1566479264535-HIGHLANDER-Men-Olive-Green-Tapered-Fit-Solid-Chinos-80015664-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/18131022/2022/9/21/a003ab44-79aa-4ad7-80d7-88ce37c083081663757797092-Harvard-Women-White-Gingham-Checks-Checked-Casual-Shirt-9616-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/10968554/2022/6/14/c390edb5-9760-4fa0-b2ca-a67967ee930d1655182094727-The-Roadster-Lifestyle-Co-Women-Green-Printed-Round-Neck-Pur-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/19959856/2022/9/17/1defe6d5-f29c-4ca0-a315-8c92602524d11663416196597-Roadster-Women-Shirts-2551663416196016-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div> <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/20063876/2022/9/27/5562df5d-6896-4175-a508-4be654eab7e51664256354870-Here--Now-Mens-Knitted-Rd-Red-Round-Neck-Tshirt-665166425635-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/16260682/2021/12/14/35eee0fc-60eb-443a-8d82-7dd3037439f11639474800191-HERENOW-Men-Tshirts-6241639474799679-1.jpg"/>
+                <span>Tokyo Talkies Women Burgundy Straight Fit Cargos Trousers <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/17628716/2022/10/12/e5c4fbbe-5f76-4e85-a32c-aa99974704841665559077746-The-Roadster-Lifestyle-Co-Women-Lavender-Solid-Straight-Fit--1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/4110852/2018/8/7/871b8141-9533-4c32-bc39-0dc9d15919a31533627045977-Mast--Harbour-Men-Trousers-9771533627045808-1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+               
+                
+                
+            </div>
+            <div>
+                <img src="https://assets.myntassets.com/f_webp,w_200,c_limit,fl_progressive,dpr_2.0/assets/images/15237864/2021/8/24/dfaddf8f-83e0-47a1-b2c2-a016025254d21629781802034TokyoTalkiesWomenGreenTaperedFitCargosTrousers1.jpg"/>
+                <span>Mast & Harbour Men Beige Slim Fit Chinos <span><b>Rs.859 Rs.1,999</b></span></span> <span style="color: red;">(57% OFF)</span>
+                <div style="border: 1px solid black; color: red; text-align: center; height: 25px;width: 100%;"> MOVE TO BAG</div>
+            
+            </div>
+
+        </div>
+        <div id="footer">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+        </div>
+    </div>
+
+</body>
+</html>

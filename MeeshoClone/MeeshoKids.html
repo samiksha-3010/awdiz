@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids</title>
+ <style>
+        *{  margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            border: 1px solid black;
+            width: 100%;
+          font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid black;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed ;
+            top: 0;
+            background-color: white;
+        }
+        #navbar>div:nth-child(1){
+            border: 1px solid black;
+            width: 15%;
+            height: 70px;
+
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            padding: 5px 10px 5px 10px;
+        }
+        #navbar>div:nth-child(2){
+            /* border: 1px solid black; */
+            width: 25%;
+             height: 30px;
+             margin-top: 15px;
+            border-radius: 1px; 
+            position: relative;
+        }
+        #navbar>div:nth-child(2)>input{
+           height: 100%;
+           width: 100%;
+           /* border: 1px solid blue; */
+            /* border: none;  */
+           outline: none;
+           margin-right: 35px;
+           font-size: small;
+           padding-left: 55px;  
+
+        }
+        #navbar>div:nth-child(2)>i{
+         position: absolute;
+         left: 5%;
+          top:15%;
+        }
+    
+        #navbar>div:nth-child(3){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            margin-top: 20px;
+        }
+        
+        #navbar>div:nth-child(4){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+           
+         }
+        #navbar>div:nth-child(4)>p{
+            align-items: center; 
+        }
+        #navbar>div:nth-child(5){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        #body{
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 75px;
+        }
+        #left{
+            /* border: 1px solid black; */
+            width: 30%;
+
+        }
+        #left>h2,p{
+            text-align: center;
+            padding-bottom: 25px;
+            
+        }
+        #short{
+            border: 1px solid black;
+            text-align: center;
+            font-size: 15px;
+            height: 40px;
+            width: 60%;
+            margin: auto;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+       
+
+        
+        #right{
+            /* border: 1px solid black; */
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+             padding: 35px;  
+         
+        }
+        #ceteegory{
+            border: 1px solid black;
+            margin: auto;
+            /* height: 800px; */
+            width: 90%;
+            margin-top: 50px;
+        }
+        #ceteegory>div{
+            border-bottom: 1px solid black;
+            margin: auto;
+            margin-top: 50px;
+            width: 70px;
+        
+        }
+        
+        #right>div{
+        border: 1px solid black;
+        width: 18%;
+        height: 400px; 
+       }
+       #right>div>img{
+        width: 100%;
+        height: 300px;
+       }
+ </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search by product more and brand more "/>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                Download App
+            </div>
+            <div>Become a Supplier </div>
+           
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <p> <a href="./meeshoREG.html">peofile</a></p>
+                    <i class="fa-solid fa-cart-shopping "></i>
+                        <p>cart</p>
+            </div>
+        </div>
+
+
+    <div id="body">
+        <div id="left">
+
+            <h2>Soft Toys</h2>
+            <p>Showing 81-100 out of 10000 products</p> 
+            <div id="short">Sort by : Relevance  <select style="border: none;color: gray;">
+                <option style="border: none;"></option></select>
+
+            </div>
+            <div id="ceteegory">
+                <div>
+                    <span>FILTERS  </br>1000+ Products
+                        </span>
+                </div>
+            </div>
+            <div>
+                <h4>Category</h4>
+                <input type="checkbox"/>
+                <span>baby Toys <select style="border: none;color: gray;">
+                    <option style="border: none;"></option></select></span>
+            </div>
+
+            <div>
+                <h4>Gender</h4>
+                <div>Women</div>
+             </div>
+             <div>
+                 
+                 <span>Fabric
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Colour
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Size
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Discount
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Range
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Price
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Combo
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Print Or Pattern Type
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Ornamentation
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+
+             </div>
+             <div>
+                 <span>Bottom Pattern Type
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span>Surface Styling
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span>Fit/ Shape
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span>Top Type
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span>Waist Rise
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span>Bottom Type
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+             <div>
+                 <span> Type
+                     <select style="border: none;color: gray;">
+                     <option style="border: none;"></option></select></span>
+             </div>
+            
+        </div>
+        <div id="right">
+
+            <div>
+                <img src="https://images.meesho.com/images/products/76471193/oeipb_400.webp"/>
+                Attractive Unisex Soft Toys
+
+                  ₹294 onwards
+                Free Delivery
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/18695097/bd3f4_400.webp"/>
+                Fancy Unisex Soft Toys
+
+                   ₹131 onwards
+                    Free Delivery
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/95838245/aqz66_400.webp"/>
+
+                Fancy Unisex Soft Toys
+
+                ₹131 onwards
+                 Free Delivery
+
+                  
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/256898728/cecdg_400.webp"/>
+                SINDHUS MAGIC SLATE FOR KIDS
+                ₹173
+                
+                Free Delivery
+
+            </div>
+            <div>  
+                 <img src="https://images.meesho.com/images/products/282584783/wjfnr_400.webp"/>
+                 Stylo Kids Stationery Supplies
+
+                 ₹173 onwards
+                 Free Delivery
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/296527516/32zow_400.webp"/>
+                Amazing Kids Stationery & Art Supplies
+
+                ₹324 onwards
+                Free Deliver
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/296527516/32zow_400.webp"/>
+                Reading & Writing Toys
+
+                ₹161 onwards
+                Free Delivry
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/126286405/kidq8_400.webp"/>
+                Versatile Baby Blanket
+
+                ₹212 onwards
+                Free Delivery
+                
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/186018714/upf51_400.webp"/>
+                New Baby Mosquito Nets
+
+                ₹567 onwards
+                Free Delivery
+                
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/57317512/njobj_400.webp"/>
+                Ravishing Sleeping Bags & Togs
+
+                ₹440 onwards
+                Free Delivery
+            
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/227140365/za3wa_400.webp"/>
+                Classic Baby Blanket
+
+                ₹280 onwards
+                Free Delivery
+
+            </div>
+            <div> 
+                <img src="https://images.meesho.com/images/products/250107285/ck1no_400.webp"/>
+                Ravishing Baby Mosquito Nets
+                ₹493 onwards
+                Free Delivery
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/124585076/p82hk_400.webp"/>
+                Gorgeous Baby Blanket
+                
+                ₹235 onwards
+                Free Delivery
+
+            </div>
+            <div>
+                 <img src="https://images.meesho.com/images/products/138394155/sq9wo_400.webp"/>
+                 Ravishing Baby Towels
+                 
+                 ₹218 onwards
+                 Free Delivery
+
+            </div>
+            <div>
+                <img src="https://images.meesho.com/images/products/289380698/ffa8l_400.webp"/>
+                Comfy Baby Towels
+                
+                ₹390 onwards
+                Free Delivery
+
+            </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>

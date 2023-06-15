@@ -19,6 +19,9 @@
             height: 70px;
             display: flex;
             justify-content: space-between;
+            position: fixed;
+            top: 0;
+            background-color: white;
             
         }
         #logo{
@@ -26,6 +29,7 @@
             width: 20%;
             height: 70px;
             text-align: center;
+            /* margin-top: 75px; */
             
         }
         #navi{
@@ -38,8 +42,19 @@
         }
         #search{
             /* border: 2px solid black; */
-            width: 20%;
-            height: 70px;
+            width: 25%;
+            height: 40px;
+            position: relative;
+        }
+        #search>i{
+            position: absolute;
+            top: 12px;
+            left: 5px;
+        }
+        #search>input{
+            height: 100%;
+            width: 100%;
+            padding-left: 25px;
         }
         #logo2{
             /* border: 2px solid black; */
@@ -47,6 +62,11 @@
             height: 70px;
             display: flex;
             justify-content: space-around;
+        }
+        #logo2>i{
+            position: absolute;
+            top: 12px;
+            left: 5px;
         }
         #product {
             /* border: 3px solid red; */
@@ -127,22 +147,24 @@
                 <img style="width: 20%; height: 70px;" src="https://img.theweek.in/content/dam/week/news/myntra.jpg"/>
             </div>
             <div id="navi">
-                <p>Men,s</p>
-                <p>Women,s</p>
-                <p>Kid,s</p>
-                <p>Home & Living</p>
-                <p>Beauty</p>
+                
+                <p> <a href="./myntra Men.html">Men,s</a></p>
+                <p> <a href="./myntraWomen.html">Women,s</a></p>
+                <p> <a href="./myntra Kids.html">kid,s</a></p>
+                <p> <a href="./myntrakitchen Home.html">Home & Living</a></p>
+                <p> <a href="./myntraBeauty.html">Beauty</a></p>
                 <p>Studio</p>
             </div>
             
             <div id="search">
+
                 <i class="fa-solid fa-magnifying-glass"></i> 
                 <input type="search" placeholder="serach for product and brands more"/>  
             </div>
             <div id="logo2">
                 <div>
                     <i class="fa-regular fa-user fa-2xl"></i>
-                    <p>Profile</p>
+                    <p> <a href="./myntraprofile.html">Profile</a></p>
                 </div>
                 <div>
                     <i class="fa-solid fa-bag-shopping fa-2xl"></i>
@@ -150,7 +172,7 @@
                 </div>
                 <div>
                     <i class="fa-regular fa-star fa-2xl"></i>
-                    <p>Wishlist</p>
+                    <p><a href="./myntraWishlist.html">Wishlist</a></p>
                 </div>
             </div>
         </div>

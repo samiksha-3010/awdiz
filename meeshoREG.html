@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeeshoREG</title>
+    <style>
+               * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #screen {
+            /* border: 2px solid black; */
+            width: 100%;
+            /* height: 600px; */
+        }
+        #navbar{
+            width: 100%;
+            border: 1px solid black;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            position: fixed ;
+            top: 0;
+            background-color: white;
+        }
+        #navbar>div:nth-child(1){
+            border: 1px solid black;
+            width: 15%;
+            height: 70px;
+
+        }
+        #navbar>div:nth-child(1)>img{
+            width: 100%;
+            height: 100%;
+            padding: 5px 10px 5px 10px;
+        }
+        #navbar>div:nth-child(2){
+            /* border: 1px solid black; */
+            width: 25%;
+             height: 30px;
+             margin-top: 15px;
+            border-radius: 1px; 
+            position: relative;
+        }
+        #navbar>div:nth-child(2)>input{
+           height: 100%;
+           width: 100%;
+           /* border: 1px solid blue; */
+            /* border: none;  */
+           outline: none;
+           margin-right: 35px;
+           font-size: small;
+           padding-left: 55px;  
+
+        }
+        #navbar>div:nth-child(2)>i{
+         position: absolute;
+         left: 5%;
+          top:15%;
+        }
+    
+        #navbar>div:nth-child(3){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            margin-top: 20px;
+        }
+        
+        #navbar>div:nth-child(4){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+           
+         }
+        #navbar>div:nth-child(4)>p{
+            align-items: center; 
+        }
+        #navbar>div:nth-child(5){
+            border-right:  2px solid black;
+            width: 15%;
+            height: 50px;
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
+    
+
+        #login {
+            border: 1px solid black;
+            width: 30%;
+            /* height: 600px; */
+            margin: auto;
+            margin-top: 50px;
+
+        }
+
+        #img {
+            width: 100%;
+            height: 250px;
+            /* border: 1px solid black; */
+            /* margin: auto;  */
+
+        }
+
+        #loginin {
+            /* text-align: center; */
+            margin-top: 30px;
+            font-size: large;
+            /* border: 1px solid black; */
+            width: 80%;
+            margin: auto;
+            margin-top: 5%;
+            line-height: 25px;
+            height: 280px;
+        }
+        
+        #number {
+            margin-top: 30px;
+            text-align: center;
+            font-size: large;
+
+
+        }
+
+        #butn {
+            height: 30px;
+            width: 100%;
+            /* margin: auto; */
+            margin-top: 5%;
+            background-color:#9f2089 ;
+            color: white;
+            font-size: 20px;
+            font-weight:700 ;
+
+        }
+
+        #loginin>input {
+            height: 30px;
+            width: 100%;
+        }
+        #loginin>p:nth-child(10) {
+            font-size: 12px;
+
+        }
+
+        #loginin>p:nth-child(10)>b {
+            color: #9f2089;
+        }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+
+            </div>
+            
+            <div>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search by product more and brand more "/>
+               
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                Download App
+            </div>
+            <div>Become a Supplier </div>
+           
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <p> <a href="./meeshoREG.html">peofile</a></p>
+                    <i class="fa-solid fa-cart-shopping "></i>
+                        <p>cart</a> </p>
+            </div>
+        </div>
+     
+        <div id="login">
+            <div id="img">
+                <img style="width: 100%; height: 100%;"
+                    src="https://images.meesho.com/images/marketing/1661417516766.webp" />
+            </div>
+            <div id="loginin">
+              <p><b>  Sing.up your profile</b></p>
+                <lable> Email </lable><br>
+                <input type="email" /><br>
+                <label> Password</label></br>
+                
+                <input type="password" /></br>
+                <button id="butn">Continue</button>
+                <p>Register</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
