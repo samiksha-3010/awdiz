@@ -103,33 +103,40 @@
        #body{
         border: 1px solid red;
         width: 90%;
-        height: 800px;
+        /* height: 800px; */
         margin: auto;
         display: flex;
         margin-top: 190px;
+        /* padding-top: 15px; */
        }
-       #bodyimage{
-        /* border: 1px solid gray; */
+     #bodyimage{
+     border: 1px solid gray; 
         width: 20%;
         height: 450px;
         margin-right: 75px;
         margin-left: 45px;
         margin-top: 75px;
        }
+        /* #bodyimage{
+        border: 1px solid gray;
+        } */
+        
        #bodyimage>div{
         border: 1px solid gray;
         width: 40%;
         height: 40px;
         margin-left: 55px;
       padding: 35px 0px;
-       }
+       } 
       
        #left{
         width: 40%;
         border: 1px solid black;
+        margin-right: 45px;
         /* padding-top: 25%; */
 
-       }
+        }
+      
        #left>div{ 
         border: 1px solid red;
         width: 50%;
@@ -178,7 +185,7 @@
        
        }
        #firstdiv>h4,p{
-        color: gray;
+        color: black;
         padding: 10px;
         text-align: left;
        }
@@ -193,12 +200,82 @@
 
         }
         seconddiv>div{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             border-radius: 10px;
             height: 10px;
             width: 5%;
 
         }
+        #thirddiv{
+            border: 1px solid gray;
+             width:90% ;
+        margin: auto;
+        margin-top: 35px ;
+        border-radius: 10px;
+     
+
+        }
+        #thirddiv>h4{
+            text-align: center;
+            font-size: 15px;
+            padding-top: 25px;
+        }
+        #fourthdiv{
+              border: 1px solid gray;
+             width:90% ;
+        margin: auto;
+        margin-top: 35px ;
+        border-radius: 10px;
+    
+        }
+        #fourthdiv2{
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        #fourthdiv3{
+/* 
+              border: 1px solid black; */
+            display: flex;
+            justify-content: space-around;
+        }
+        #fourthdiv4{
+          border:  1px solid gray; 
+           width:90% ;
+        margin: auto;
+        margin-top: 35px ;
+        border-radius: 10px; 
+        }
+          #fourthdiv4>p{
+            font-size: small;
+            color: gray;
+          }
+          #fourthdiv5{
+            border:  1px solid gray; 
+           width:90% ;
+        margin: auto;
+        margin-top: 35px ;
+        border-radius: 10px; 
+          }
+
+            #code{
+                border-top: 1px solid gray;
+                width: 75%; 
+                align-items: centre;
+            }
+            #price{
+                border:  1px solid gray; 
+           width:90% ;
+        margin: auto;
+        margin-top: 35px ;
+        border-radius: 10px;
+        height: 70px;
+        background-color: #e7eeff;
+        display: flex;
+        justify-content: space-between;
+        
+            }
                           /* ====== body2=======Imag */
 
        #body2{
@@ -285,6 +362,7 @@
         </div>
             
             <div id="left">
+              
                 <div >
                     <img src="https://images.meesho.com/images/products/175992228/82ewd_512.webp"/>
 
@@ -292,7 +370,7 @@
                       <!-- <div id="button"> -->
                         
                       <button> <i class="fa-solid fa-cart-plus"></i>Add to Cart</button>
-                      <button>Buy Now</button>
+                      <button style="background-color:purple; color: white;">Buy Now</button>
                       
                     <!-- </div> -->
                     <h4>1 Similar Products</h4>
@@ -308,7 +386,7 @@
                         189
                         10% off
                     
-                        <h4>3.8
+                        <h4><b> <is style="color: blue;" class="fa-regular fa-star"></i>3.8</b>
                             15824 Ratings, 2640 Reviews
                         </h4>
                             <p>Free Delivery</p>
@@ -327,14 +405,72 @@
                      <div></div>
 
                 </div>
-                <div></div>
-                <div></div>
+                <div id="thirddiv">
+                    <h4>Product Details</h4>
+
+                    <p>Name : ?Girls Multicolor Frocks & Dresses Pack Of 1
+                        Fabric : Cotton Blenn
+                        Sleeve Length : Long Sleeves
+                        Pattern : Printed
+                        Net Quantity (N) : Single
+                        Sizes : 
+                        0-3 Months, 0-6 Months, 3-6 Months, 6-9 Months,
+                         6-12 Months, 9-12 Months, 12-18 Months, 18-24 Months,
+                         0-1 Years, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-6 Years, 6-7 Year 
+                        Girls Multicolor Frocks & Dresses 
+                        Fabric : Cotton Polyestr    
+                        Sleeve Length : Long Sleeve
+                        Pattern : Printed
+                         More Information</p>
+
+                </div>
+                <div id="fourthdiv">
+                    <h4>Sold by</h4>
+                  
+                    <div id="fourthdiv2">
+                        <i style="color:blue;" class="fa-solid fa-house-chimney"></i>
+                        <p>Royal fashion</p>
+                       <p>View More</p>
+                    </div>
+                       <div id="fourthdiv3">
+                      <p><b> <i style="color: blue;" class="fa-regular fa-star"></i>3.8</b></br>
+                        70,985 Ratings</p>
+                        <p> <b>1,614</b></br>
+                            Followers</p>
+                            <p><b>10</b></br>
+                                Products</p>
+                       </div>
+
+                    </div>
+                    <div id="fourthdiv4">
+                        <h4>Check Delivery Date </h4>
+                        <p>Enter Delivary pinCode</p>
+                       <div id="code">
+                       
+                       <p>  <i class="fa-solid fa-truck"></i>Enter Pincode for Estimated Delivery Date</p>
+                       <p>Dispatch in 1 day</p>
+                       </div>
+                    </div>
+                    <div id="fourthdiv5">
+                        Product Ratings & Reviews</div>
+                    <div id="price">
+                     
+                            <p>Lowest Price</p>
+                            <p>cash on Delivary</p>
+                            <p>Return Policy</p>
+                        
+
+                        
+                    </div>
+                    </div>
+<!--                 
+                <div></div> -->
             </div>
             
         </div>
                                    
         <div id="body2">
-            <!-- <h2>People also viewed</h2> -->
+             <!-- <h2>People also viewed</h2>  -->
             <div>
                 <img src="https://images.meesho.com/images/products/126711895/h7nhp_400.webp"/>
                 Agile Stylus Girls
@@ -380,7 +516,7 @@
                 ₹175
                 
                 4% off
-                Free Delivery
+                <a style="color: red;">Free delivary</a>
                 3.7
                 6877 Reviews</p>
              </div>
