@@ -1,409 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>single product</title>
-    <style>
-         *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        #screen{
-            width: 100%;
-            border: 1px solid black;
-           
-        }
-        #navbar{
-            width: 100%;
-            border: 1px solid black;
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            position: fixed ;
-            top: 0;
-            background-color: white;
-        }
-        #navbar>div:nth-child(1){
-            border: 1px solid black;
-            width: 15%;
-            height: 70px;
-
-        }
-        #navbar>div:nth-child(1)>img{
-            width: 100%;
-            height: 100%;
-            padding: 5px 10px 5px 10px;
-        }
-        #navbar>div:nth-child(2){
-            /* border: 1px solid black; */
-            width: 25%;
-             height: 30px;
-             margin-top: 15px;
-            border-radius: 1px; 
-            position: relative;
-        }
-        #navbar>div:nth-child(2)>input{
-           height: 100%;
-           width: 100%;
-           /* border: 1px solid blue; */
-            /* border: none;  */
-           outline: none;
-           margin-right: 35px;
-           font-size: small;
-           padding-left: 55px;  
-
-        }
-        #navbar>div:nth-child(2)>i{
-         position: absolute;
-         left: 5%;
-          top:15%;
-        }
-    
-        #navbar>div:nth-child(3){
-            border-right:  2px solid black;
-            width: 15%;
-            height: 50px;
-            margin-top: 20px;
-        }
-        
-        #navbar>div:nth-child(4){
-            border-right:  2px solid black;
-            width: 15%;
-            height: 50px;
-            text-align: center;
-            margin-top: 20px;
-           
-         }
-        #navbar>div:nth-child(4)>p{
-            align-items: center; 
-        }
-        #navbar>div:nth-child(5){
-            border-right:  2px solid black;
-            width: 15%;
-            height: 50px;
-            align-items: center;
-            display: flex;
-            justify-content: space-between;
-        }
-        #navbar2{
-        width: 100%;
-        height: 70px;
-        top: 70px;
-        border: 1px solid black;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        background-color: white;
-                            /* ======     startbody===== */
-       }
-       #body{
-        border: 1px solid red;
-        width: 90%;
-        /* height: 800px; */
-        margin: auto;
-        display: flex;
-        margin-top: 190px;
-        /* padding-top: 15px; */
-       }
-     #bodyimage{
-     border: 1px solid gray; 
-        width: 20%;
-        height: 450px;
-        margin-right: 75px;
-        margin-left: 45px;
-        margin-top: 75px;
-       }
-        /* #bodyimage{
-        border: 1px solid gray;
-        } */
-        
-       #bodyimage>div{
-        border: 1px solid gray;
-        width: 40%;
-        height: 40px;
-        margin-left: 55px;
-      padding: 35px 0px;
-       } 
-      
-       #left{
-        width: 40%;
-        border: 1px solid black;
-        margin-right: 45px;
-        /* padding-top: 25%; */
-
-        }
-      
-       #left>div{ 
-        border: 1px solid red;
-        width: 50%;
-        height: 450px;
-        margin: auto;
-      margin-top: 75px;
-
-       }
-       #left>div>img{
-        width: 100%;
-        height: 400px;
-       
-       }
-       #left>button{
-        width: 40%;
-        height: 60px;
-        margin-top: 40px;
-        margin-left: 40px;
-       border-color: purple;
-       color: purple;
-       align-items: center;
-       }
-       #left>h4{
-        padding-top: 25px;
-        padding-left: 20px;
-
-       }
-       /* #button{
-        border-top: 1px solid black;
-        height: 60px;
-
-       } */
-
-
-       #right{
-        border: 1px solid black;
-        width: 50%;
-        /* padding-top:30px ; */
-       }
-       #firstdiv{
-        border: 1px solid gray;
-        width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px;
-       
-       }
-       #firstdiv>h4,p{
-        color: black;
-        padding: 10px;
-        text-align: left;
-       }
-        #seconddiv{
-            border: 1px solid gray;
-        width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-between;
-
-        }
-        seconddiv>div{
-            /* border: 1px solid red; */
-            border-radius: 10px;
-            height: 10px;
-            width: 5%;
-
-        }
-        #thirddiv{
-            border: 1px solid gray;
-             width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px;
-     
-
-        }
-        #thirddiv>h4{
-            text-align: center;
-            font-size: 15px;
-            padding-top: 25px;
-        }
-        #fourthdiv{
-              border: 1px solid gray;
-             width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px;
-    
-        }
-        #fourthdiv2{
-            /* border: 1px solid black; */
-            display: flex;
-            justify-content: space-around;
-            
-        }
-        #fourthdiv3{
-/* 
-              border: 1px solid black; */
-            display: flex;
-            justify-content: space-around;
-        }
-        #fourthdiv4{
-          border:  1px solid gray; 
-           width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px; 
-        }
-          #fourthdiv4>p{
-            font-size: small;
-            color: gray;
-          }
-          #fourthdiv5{
-            border:  1px solid gray; 
-           width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px; 
-          }
-
-            #code{
-                border-top: 1px solid gray;
-                width: 75%; 
-                align-items: centre;
-            }
-            #price{
-                border:  1px solid gray; 
-           width:90% ;
-        margin: auto;
-        margin-top: 35px ;
-        border-radius: 10px;
-        height: 70px;
-        background-color: #e7eeff;
-        display: flex;
-        justify-content: space-between;
-        
-            }
-                          /* ====== body2=======Imag */
-
-       #body2{
-        border: 1px solid black;
-        width: 80%;
-        margin: auto;
-        /* height: 800px; */
-        margin-top:25px ;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-       }
-       #body2>div{
-        width: 22%;
-        height: 450px;
-        border: 1px solid gray;
-       }
-       #body2>div>img{
-        height: 280px;
-        width: 85%;
-       padding-top: 35px;
-         padding-left: 75px;
-         padding-right: 45px;
-      
-
-       }
-    </style>
+    <link rel="stylesheet" href="style-MsingleP.css">
 </head>
+
 <body>
     <div id="screen">
         <div id="navbar">
             <div>
-                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180"/>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.th1ysM5zvhU5bq8N8Bo_0QHaBw&pid=Api&P=0&h=180" />
 
             </div>
-            
+
             <div>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="search" placeholder="Search by product more and brand more "/>
-               
+                <input type="search" placeholder="Search by product more and brand more " />
+
             </div>
             <div>
                 <i class="fa-solid fa-mobile-screen-button"></i>
                 Download App
             </div>
             <div>Become a Supplier </div>
-           
+
             <div>
                 <i class="fa-regular fa-user"></i>
                 <p> <a href="./meeshoREG.html">peofile</a></p>
-                    <i class="fa-solid fa-cart-shopping "></i>
-                        <p>cart</a> </p>
+                <i class="fa-solid fa-cart-shopping "></i>
+                <p>cart</a> </p>
             </div>
         </div>
         <div>
-      </div>
+        </div>
         <div id="navbar2">
-            <p>Women Ethanic</p> 
+            <p>Women Ethanic</p>
             <p>Women Western</p>
             <p>Men</p>
             <p> Kids</p>
             <p>Home & Kitchen</p>
             <p>Beauty & Health</p>
-            
+
             <p>Jewellery & Accessories</p>
             <p>Bags & Footwear</p>
             <p>Electronics </a></p>
         </div>
 
-                                  <!-- ====single Imag======= -->
+        <!-- ====single Imag======= -->
         <div id="body">
-       
+
             <div id="bodyimage">
-            <div>
-                <img src="https://images.meesho.com/images/products/175992228/nmyow_64.webp"/>
+                <div>
+                    <img src="https://images.meesho.com/images/products/175992228/nmyow_64.webp" />
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/175992228/reerq_64.webp" />
+                </div>
+                <div>
+                    <img src="https://images.meesho.com/images/products/175992228/82ewd_64.webp" />
+                </div>
             </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/175992228/reerq_64.webp"/>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/175992228/82ewd_64.webp"/>
-            </div>
-        </div>
-            
+
             <div id="left">
-              
-                <div >
-                    <img src="https://images.meesho.com/images/products/175992228/82ewd_512.webp"/>
+
+                <div>
+                    <img src="https://images.meesho.com/images/products/175992228/82ewd_512.webp" />
 
                 </div>
-                      <!-- <div id="button"> -->
-                        
-                      <button> <i class="fa-solid fa-cart-plus"></i>Add to Cart</button>
-                      <button style="background-color:purple; color: white;">Buy Now</button>
-                      
-                    <!-- </div> -->
-                    <h4>1 Similar Products</h4>
-                  
-                    <img src="https://images.meesho.com/images/products/175992228/82ewd_128.webp"/>
-                
+                <!-- <div id="button"> -->
 
-            </div> 
+                <button> <i class="fa-solid fa-cart-plus"></i>Add to Cart</button>
+                <button style="background-color:purple; color: white;">Buy Now</button>
+
+                <!-- </div> -->
+                <h4>1 Similar Products</h4>
+
+                <img src="https://images.meesho.com/images/products/175992228/82ewd_128.webp" />
+
+
+            </div>
             <div id="right">
                 <div id="firstdiv">
                     <h4>?Girls Multicolor Frocks & Dresses Pack Of 1</h4>
-                    <b>₹179</b>
-                        189
-                        10% off
-                    
-                        <h4><b> <is style="color: blue;" class="fa-regular fa-star"></i>3.8</b>
-                            15824 Ratings, 2640 Reviews
-                        </h4>
-                            <p>Free Delivery</p>
-                     
+                    <h2>₹179</h2>
+                    <p> 10% off</p>
+                    <h4><b>
+                            <is style="color: blue;" class="fa-regular fa-star"></i>3.8
+                        </b>
+                        15824 Ratings, 2640 Reviews
+                    </h4>
+                    <p>Free Delivery</p>
+
                 </div>
                 <div id="seconddiv">
                     <h2>Select Size </h2>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-                     <div></div>
-
+                    <div id="parent-for-size">
+                        <div>0-3Month</div>
+                        <div>3-6Month</div>
+                        <div>6-9Month</div>
+                        <div>9-12Month</div>
+                        <div>12-15Month</div>
+                        <div>15-18Month</div>
+                        <div>20 -24Month</div>
+                        <div>0 - 1Year</div>
+                        <div>1 - 2Year</div>
+                        <div>2 - 5Year</div>
+                    </div>
                 </div>
                 <div id="thirddiv">
                     <h4>Product Details</h4>
@@ -413,213 +119,233 @@
                         Sleeve Length : Long Sleeves
                         Pattern : Printed
                         Net Quantity (N) : Single
-                        Sizes : 
+                        Sizes :
                         0-3 Months, 0-6 Months, 3-6 Months, 6-9 Months,
-                         6-12 Months, 9-12 Months, 12-18 Months, 18-24 Months,
-                         0-1 Years, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-6 Years, 6-7 Year 
-                        Girls Multicolor Frocks & Dresses 
-                        Fabric : Cotton Polyestr    
+                        6-12 Months, 9-12 Months, 12-18 Months, 18-24 Months,
+                        0-1 Years, 1-2 Years, 2-3 Years, 3-4 Years, 4-5 Years, 5-6 Years, 6-7 Year
+                        Girls Multicolor Frocks & Dresses
+                        Fabric : Cotton Polyestr
                         Sleeve Length : Long Sleeve
                         Pattern : Printed
-                         More Information</p>
+                        More Information</p>
 
                 </div>
-                <div id="fourthdiv">
+                <div id="fourthdiv3">
                     <h4>Sold by</h4>
-                  
-                    <div id="fourthdiv2">
-                        <i style="color:blue;" class="fa-solid fa-house-chimney"></i>
+                    <div>
+                        <div><img src="https://images.meesho.com/images/pow/shop_100.webp" />
+                        </div>
                         <p>Royal fashion</p>
-                       <p>View More</p>
+                        <button>View More</button>
                     </div>
-                       <div id="fourthdiv3">
-                      <p><b> <i style="color: blue;" class="fa-regular fa-star"></i>3.8</b></br>
-                        70,985 Ratings</p>
-                        <p> <b>1,614</b></br>
-                            Followers</p>
+                    <div>
+                        <div>
+                            <span>3.8 <i class="fa-solid fa-star"></i></span>
+                            <p> 70,985 Ratings</p>
+                        </div>
+                        <div>
+                            <p> <b>1,614</b></br>
+                                Followers</p>
+                        </div>
+                        <div>
                             <p><b>10</b></br>
                                 Products</p>
-                       </div>
+                        </div>
+                    </div>
+                </div>
 
+                <div id="fourthdiv4">
+                    <h4>Check Delivery Date </h4>
+                    <div><input placeholder="Enter Delivary pinCode"></input></div>
+                    <div id="code">
+                        <p> <i class="fa-solid fa-truck"></i>Enter Pincode for Estimated Delivery Date</p>
+                        <p> <i class="fa-solid fa-box-open"></i>Dispatch in 1 day</p>
                     </div>
-                    <div id="fourthdiv4">
-                        <h4>Check Delivery Date </h4>
-                        <p>Enter Delivary pinCode</p>
-                       <div id="code">
-                       
-                       <p>  <i class="fa-solid fa-truck"></i>Enter Pincode for Estimated Delivery Date</p>
-                       <p>Dispatch in 1 day</p>
-                       </div>
-                    </div>
-                    <div id="fourthdiv5">
-                        Product Ratings & Reviews</div>
-                    <div id="price">
-                     
-                            <p>Lowest Price</p>
-                            <p>cash on Delivary</p>
-                            <p>Return Policy</p>
-                        
+                </div>
+                <div id="fourthdiv5">
+                    <h4>Product Ratings & Reviews</h4>
+                    <div id="rating">
+                        <div id="Rleft">
+                            <p>3.8 <i class="fa-solid fa-star"></i></p>
+                            <p>120574  Ratings,<br>
+                                15200  Reviews</p>
+                        </div>
+                        <div id="Rright">
 
-                        
+                        </div>
                     </div>
-                    </div>
-<!--                 
-                <div></div> -->
+                </div>
+                <div id="price">
+                    <img style="width: 12%; height: 50px; padding-top: 10px; padding-left: 8px;"
+                        src="https://images.meesho.com/images/value_props/7_day_returns_pbd.png" />
+                    <p>Lowest</br> Price</p>
+                    <img scr="https://images.meesho.com/images/value_props/cash_on_delivery_pbd.png" />
+                    <p>cash on</br> Delivary</p>
+                    <img style="width: 12%; height: 50px; padding-top: 10px; padding-left: 8px;"
+                        src="https://images.meesho.com/images/value_props/lowest_price_pbd.png" />
+                    <p>Return</br> Policy</p>
+                </div>
+                <div id="">Best quality products from trusted suppliers</div>
             </div>
-            
+
+            -
         </div>
-                                   
-        <div id="body2">
-             <!-- <h2>People also viewed</h2>  -->
-            <div>
-                <img src="https://images.meesho.com/images/products/126711895/h7nhp_400.webp"/>
-                Agile Stylus Girls
-                 Frocks & Dresses
+
+    </div>
+
+    <div id="body2">
+        <!-- <h2>People also viewed</h2>  -->
+        <div>
+            <img src="https://images.meesho.com/images/products/126711895/h7nhp_400.webp" />
+            Agile Stylus Girls
+            Frocks & Dresses
+
+            ₹174
+            ₹183
+
+            5% off
+            Free Delivery
+
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/196322718/nczvp_400.webp" />
+            <p>+3 More
+                Agile Stylus Girls Frocks & Dresses
 
                 ₹174
                 ₹183
-                
+
                 5% off
                 Free Delivery
+                3.9
+                48230 Reviews</p>
 
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/196322718/nczvp_400.webp"/>
-                <p>+3 More
-                    Agile Stylus Girls Frocks & Dresses
-                    
-                    ₹174
-                    ₹183
-                    
-                    5% off
-                    Free Delivery
-                    3.9
-                    48230 Reviews</p>
-
-            </div>
-             <div>
-                <img src="https://images.meesho.com/images/products/193532870/cykqc_400.webp"/>
-               <p> +5 More
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/193532870/cykqc_400.webp" />
+            <p> +5 More
                 Cutiepie Comfy Girls Frocks & Dresses
-                
+
                 ₹181 onwards
                 Free Delivery
                 4.0
                 1012 Reviews</p>
-             </div>
-             <div>
-                <img src="https://images.meesho.com/images/products/147548921/0r3uu_400.webp"/>
-               <p> +4 More
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/147548921/0r3uu_400.webp" />
+            <p> +4 More
                 Tinkle Stylus Girls Frocks & Dresses
-                
+
                 ₹168
                 ₹175
-                
+
                 4% off
                 <a style="color: red;">Free delivary</a>
                 3.7
-                6877 Reviews</p>
-             </div>
-             <div>
-                <img src="https://images.meesho.com/images/products/187649684/9grnh_400.webp"/>
-                   <p>+2 More
-                    Pretty Trendy Girls Frocks & Dresses
-                    
-                    ₹341
-                    ₹357
-                    
-                    4% off
-                    Free Delivery
-                    3.9
-                    29930 Reviews</p>
-             </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/244591960/onezx_400.webp"/>
-                   <p>+4 More
-                    Tinkle Stylish Girls Frocks & Dresses
-                    
-                    ₹179 onwards
-                    Free Delivery
-                    3.8
-                    358 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/57474606/9rtpj_400.webp"/>
-                  <p>+3 More
-                    Agile Stylus Girls Frocks & Dresses
-                    
-                    ₹174
-                    ₹183
-                    
-                    5% off
-                    Free Delivery
-                    3.9
-                    48230 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/193912086/nknae_400.webp"/>
-               <p> +4 More
+                6877 Reviews
+            </p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/187649684/9grnh_400.webp" />
+            <p>+2 More
+                Pretty Trendy Girls Frocks & Dresses
+
+                ₹341
+                ₹357
+
+                4% off
+                Free Delivery
+                3.9
+                29930 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/244591960/onezx_400.webp" />
+            <p>+4 More
                 Tinkle Stylish Girls Frocks & Dresses
-                
+
                 ₹179 onwards
                 Free Delivery
                 3.8
                 358 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/193890350/8bavv_400.webp"/>
-                   <p>+2 More
-                    Modern Comfy Girls Top & Bottom Sets
-                    
-                    ₹152
-                    ₹173
-                    
-                    12% off
-                    Free Delivery
-                    4.0
-                    29333 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/160763508/fuh5k_400.webp"/>
-                <p>+2 More
-                    Pretty Trendy Girls Frocks & Dresses
-                    
-                    ₹341
-                    ₹357
-                    
-                    4% off
-                    Free Delivery
-                    3.9
-                    29930 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/134457597/utfh8_400.webp"/>
-                  <p>
-                    Princess Trendy Girls Frocks & Dresses
-                    
-                    ₹225
-                    ₹241
-                    
-                    7% off
-                    Free Delivery
-                    3.9
-                    3096 Reviews</p>
-            </div>
-            <div>
-                <img src="https://images.meesho.com/images/products/208752706/3zsqy_400.webp"/>
-                <p>
-                    Princess Trendy Girls Frocks & Dresses
-                    
-                    ₹225
-                    ₹241
-                    
-                    7% off
-                    Free Delivery
-                    3.9
-                    3096 Reviews</p>
-            </div>
         </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/57474606/9rtpj_400.webp" />
+            <p>+3 More
+                Agile Stylus Girls Frocks & Dresses
+
+                ₹174
+                ₹183
+
+                5% off
+                Free Delivery
+                3.9
+                48230 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/193912086/nknae_400.webp" />
+            <p> +4 More
+                Tinkle Stylish Girls Frocks & Dresses
+
+                ₹179 onwards
+                Free Delivery
+                3.8
+                358 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/193890350/8bavv_400.webp" />
+            <p>+2 More
+                Modern Comfy Girls Top & Bottom Sets
+
+                ₹152
+                ₹173
+
+                12% off
+                Free Delivery
+                4.0
+                29333 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/160763508/fuh5k_400.webp" />
+            <p>+2 More
+                Pretty Trendy Girls Frocks & Dresses
+
+                ₹341
+                ₹357
+
+                4% off
+                Free Delivery
+                3.9
+                29930 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/134457597/utfh8_400.webp" />
+            <p>
+                Princess Trendy Girls Frocks & Dresses
+
+                ₹225
+                ₹241
+
+                7% off
+                Free Delivery
+                3.9
+                3096 Reviews</p>
+        </div>
+        <div>
+            <img src="https://images.meesho.com/images/products/208752706/3zsqy_400.webp" />
+            <p>
+                Princess Trendy Girls Frocks & Dresses
+
+                ₹225
+                ₹241
+
+                7% off
+                Free Delivery
+                3.9
+                3096 Reviews</p>
+        </div>
+    </div>
     <div>footer</div>
-        </div>
+    </div>
 </body>
+
 </html>
