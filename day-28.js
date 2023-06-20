@@ -45,14 +45,67 @@
 
 
 // clousre
-function  outerFunction(){
-    var myMarks = 40;
-    console.log("Inside inner Funcation");
+// function  outerFunction(){
+//     var myMarks = 40;
+//     console.log("Inside inner Funcation");
+//     function innerfunction(){
+//         console.log("Inside inner Funcation",myMarks)
+// }
+// return innerfunction;
+// }
+
+
+
+// function  outerFuncation(){
+//     var myMarks = (40)
+//     console.log("oUTER")
+//     function innerfunction(){
+//         console.log ("inner " ,myMarks)
+//     }
+//     return innerfunction;
+
+// }
+// var sami=outerFuncation();
+// console.log(sami())
+
+
+// var myName = " samiksha";
+// function  outerFuncation(){
+//     console.log("outer")
+//     function innerfunction(){
+//         console.log("inner",myName)
+
+//     }
+//     return innerfunction()
+// }
+// outerFuncation()
+
+
+// var myname = "samiksha";
+// function outerFuncation(){
+//     console.log("outer")
+//     function innerfunction(){
+//         console.log( "inner",myname )
+//     }
+//     return  innerfunction()
+
+// }
+// outerFuncation()
+     var myname = "samiksha";
+function outerFuncation(){
+    console.log("outerFuncation",myname)
     function innerfunction(){
-        console.log("Inside inner Funcation",myMarks)
+        var mymarks = 30;
+        console.log("innerFuncation", mymarks)
+    }
+      return innerfunction();
 }
-return innerfunction;
-}
+outerFuncation();
+
+
+
+
+
 // const  res = outerFuncation();
 // console.log(res());
 

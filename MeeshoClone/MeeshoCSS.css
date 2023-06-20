@@ -1,0 +1,152 @@
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+#screen{
+    width: 100%;
+    height: 800px;
+    border: 1px solid black;
+}
+#navbar{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+    display: flex;
+
+    
+    
+}
+#logo{
+    width: 30%;
+    height: 70px;
+    border: 1px solid gray;
+}
+
+#container{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}#left{
+    border: 1px solid gray;
+    width: 50%;
+}
+#left>div{
+    display: flex;
+    align-items: center;
+   font-size: larger;
+   padding-top: 45px;
+   padding-left: 45px;
+}
+#proffesional{
+    width: 90%;
+    /* height: 150px; */
+    /* border: 1px solid black; */
+
+    
+}
+#proimg{
+    width: 30%;
+    /* border: 1px solid gray;  */
+    height: 100px;
+}
+#proimg>img{
+    width: 70%;
+    height: 100px;
+    padding-bottom: 25px;
+    padding-bottom: 25px;
+
+
+}
+/* #proimg>div{
+    width: 20%;
+    height: 90px;
+    border: 1px solid gray;
+    margin: auto;
+
+} */
+#protxt{
+    width: 70%;
+    border: 1px solid gray;
+   line-height: 35px;
+
+}
+#protxt>h4,p,b{
+    margin-left: 25px;
+}
+#protxt2{
+    border:1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    font-size: smaller;
+}
+#right{
+    border-left: 1px solid gray;
+    width: 50%;
+}
+#right>h4{
+    padding-left: 25px;
+    line-height: 15px;
+    padding-top: 25px;
+}
+#righttxt{
+    /* border : 1px solid black; */
+    display: flex;
+    width: 40%;
+   
+    font-size: larger;
+    justify-content: space-between;
+}
+#button{
+    /* border: 1px solid black; */
+    padding-top: 25px;
+    padding-left: 25px;
+    color: gray;
+}
+#button2{
+    padding-top: 15px;
+    padding-left: 25px;
+   color: white;
+}
+#lastdiv{
+    width: 100%;
+}
+
+#top{
+    width: 400px;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+}
+
+#top>div:nth-child(1){
+display: flex;
+}
+
+#top>div:nth-child(1)>span{
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    text-align: center;
+    
+    
+}
+
+#top>div:nth-child(1)>p{
+    width: 150px;
+    height: 0;
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+
+#top>div:nth-child(2){
+    display: flex;
+    
+    }
+
+    #top>div:nth-child(2)>p{
+        margin-right: 35px;
+    }

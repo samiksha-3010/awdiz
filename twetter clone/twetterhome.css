@@ -1,0 +1,131 @@
+*{
+ margin: 0; 
+ padding: 0;  
+ box-sizing: border-box;
+}
+#screen{
+    width: 100%;
+    border: 1px solid black;
+    height: 1000px;
+}
+#container{
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+
+}
+#left{
+    width: 25%;
+    border: 1px solid black;
+    height: 500px;
+   
+}
+
+#tweeterimg{
+    font-size: 25px;
+     color: blue;
+    padding-left: 15px;
+    padding-top: 35px;
+    /* border: 1px solid black; */
+    width: 20%;
+    margin: auto;
+
+}
+
+#textimg>i,p{
+    font-size: 25px;
+    line-height: 20px;
+    padding-left: 140px;
+    padding-top: 25px;
+    word-spacing: 25px;
+   
+
+}
+#seetingimg{
+     font-size: 25px;
+    line-height: 20px;
+    padding-left: 40px;
+    padding-top: 15px;
+    word-spacing: 25px;
+   
+}
+#meedel{
+    width: 35%;
+    border: 1px solid black;
+    height: 1000px;
+}
+#navbar{
+    width: 100%;
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#navbar>i{
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#right{
+    width: 25%;
+    border: 1px solid black;
+    height: 500px;
+   
+}
+#rightfirstdiv{
+    border: 1px solid gray;
+    width: 70%;
+    height: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+#rightfirstdiv>h2>{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+#rightfirstdiv>h6>{
+    padding-top: 20px;
+    color: gray;
+   
+}
+#rightseconddiv{
+    border: 1px solid gray;
+    width: 90%;
+     height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+
+}
+#rightthirddiv{
+    border: 1px solid gray;
+    width: 90%;
+     height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+
+}
+  #rightfourdiv{
+    border: 1px solid gray;
+    width: 90%;
+     height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+
+  } 
+  #rightfivediv{
+    border: 1px solid gray;
+    width: 90%;
+     height: 60px;
+    margin: auto;
+    margin-top: 20px;
+
+  } 
+
+    
