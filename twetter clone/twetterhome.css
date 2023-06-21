@@ -6,7 +6,7 @@
 #screen{
     width: 100%;
     border: 1px solid black;
-    height: 1000px;
+    /* height: 1000px; */
 }
 #container{
     width: 100%;
@@ -65,42 +65,14 @@
     width: 100%;
     height: 70px;
     border: 1px solid black;
-}
-#spandiv10{
+} */
+/* #spandiv10{
     border: 1px solid black;
     width: 30%;
     height: 30px;
     margin: auto;
 } */
 
- /* #tweeterimg{
-    font-size: 25px;
-     color: blue;
-    padding-left: 15px;
-    padding-top: 35px;
-     border: 1px solid black; 
-    width: 20%; 
-    margin: auto;
-
-}
-
-#textimg>i,p{
-    font-size: 25px;
-    line-height: 20px;
-    padding-left: 140px;
-    padding-top: 25px;
-    word-spacing: 25px;
-   
-
-}
-#seetingimg{
-     font-size: 25px;
-    line-height: 20px;
-    padding-left: 40px;
-    padding-top: 15px;
-    word-spacing: 25px;
-   
-}  */
 #meedel{
     width: 35%;
     border: 1px solid black;
@@ -109,73 +81,134 @@
 #navbar{
     width: 100%;
     border: 1px solid black;
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
+    height: 100px;
  
 }
-#navbar>i{
+#navbar>h4>{
     font-size: 25px;
     padding-top: 10px;
-    padding-right: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+}
+#navbar>div{
+    border: 1px solid gray;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+
+
 }
 #right{
     width: 25%;
     border: 1px solid black;
-    height: 500px;
+    /* height: 500px; */
    
 }
-/* #rightfirstdiv{
+#rightcontainer{
+    width: 90%;
+    height: 50px;
     border: 1px solid gray;
-    width: 70%;
-    height: 400px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    align-items: center;
+    background-color:  gainsboro;
+}
+#rightcontainer>button{
+    font-size: 20px;
+     color: black;
+      text-align: center;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    
+}
+#rightdiv2{
+    width: 90%;
+    height: 90px;
+    border: 1px solid gray;
     margin: auto;
     margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 30px;
+    align-items: center;
+    background-color: gainsboro;
 }
-#rightfirstdiv>h2>{
-    padding-top: 20px;
-    padding-left: 15px;
+#rightdiv2>h4,p{
+    padding-left: 20px;
+    padding-top:10px ;
 }
-#rightfirstdiv>h6>{
+#rightdiv2>button{
+    border-radius: 30px;
+    width: 30%;
+    height: 30px;
+  background-color: black;
+  color: white;
+}
+ #rightdiv3{
+    width: 90%;
+    /* height: 120px; */
+    border: 1px solid gray;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    align-items: center;
+    background-color: gainsboro;
+
+}
+#rightdiv3>h2{
+    padding-left: 30px;
     padding-top: 20px;
+}
+#rightdiv3>div{
+    border: 1px solid gray;
+    width: 80%;
+    height: 70px;
+    margin: auto;
+    margin-top: 30px;
+}
+#rightdiv3>div:nth-child(1)p,b{
     color: gray;
-   
 }
-#rightseconddiv{
-    border: 1px solid gray;
+
+
+/* #rightdiv3>div:hover{
+    background-color: bisque;
+    color: black;
+    border: 1px solid red;
+} */
+
+
+
+
+#rightdiv4{
     width: 90%;
-     height: 40px;
+    /* height:px; */
+    border: 1px solid gray;
     margin: auto;
     margin-top: 20px;
     border-radius: 30px;
-
+    align-items: center;
+    background-color: gainsboro;
 }
-#rightthirddiv{
-    border: 1px solid gray;
-    width: 90%;
-     height: 40px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 30px;
 
+
+#rightdiv4>h2{
+    padding-left: 20px;
+    padding-top:10px 
 }
-  #rightfourdiv{
+#rightdiv4>div{
     border: 1px solid gray;
-    width: 90%;
-     height: 40px;
+    width: 80%;
+    height: 70px;
     margin: auto;
-    margin-top: 20px;
-    border-radius: 30px;
+    margin-top: 30px;
+}
+#rightdiv4>div:nth-child(1),p{
+  
+}
 
-  } 
-  #rightfivediv{
-    border: 1px solid gray;
-    width: 90%;
-     height: 60px;
-    margin: auto;
-    margin-top: 20px;
 
-  } 
 
-     */
+
+     
