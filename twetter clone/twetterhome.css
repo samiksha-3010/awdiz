@@ -10,26 +10,76 @@
 }
 #container{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     border: 1px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 #left{
     width: 25%;
     border: 1px solid black;
-    height: 500px;
+   
    
 }
+#left>div{
+    /* border: 1px solid gray; */
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 35px;
 
-#tweeterimg{
+}
+#left>div:hover{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    color: black;
+}
+
+#left>p,i{
+        padding-left: 35px;
+        padding-top: 20px;
+        font-size: 25px;
+        padding-right: 30px;
+    
+}
+#left>span{
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+ 
+     #btn{  border: 1px solid black;
+      width: 75%;
+      height: 45px;
+      margin-left: 25px;
+      margin-bottom: 20px;
+      border-radius: 35px; 
+      font-size: 18px;
+      background-color: rgb(108, 108, 189);
+      color: white;
+
+} 
+/* #spandiv10{
+    width: 100%;
+    height: 70px;
+    border: 1px solid black;
+}
+#spandiv10{
+    border: 1px solid black;
+    width: 30%;
+    height: 30px;
+    margin: auto;
+} */
+
+ /* #tweeterimg{
     font-size: 25px;
      color: blue;
     padding-left: 15px;
     padding-top: 35px;
-    /* border: 1px solid black; */
-    width: 20%;
+     border: 1px solid black; 
+    width: 20%; 
     margin: auto;
 
 }
@@ -50,11 +100,11 @@
     padding-top: 15px;
     word-spacing: 25px;
    
-}
+}  */
 #meedel{
     width: 35%;
     border: 1px solid black;
-    height: 1000px;
+    height: 500px;
 }
 #navbar{
     width: 100%;
@@ -75,7 +125,7 @@
     height: 500px;
    
 }
-#rightfirstdiv{
+/* #rightfirstdiv{
     border: 1px solid gray;
     width: 70%;
     height: 400px;
@@ -128,4 +178,4 @@
 
   } 
 
-    
+     */
