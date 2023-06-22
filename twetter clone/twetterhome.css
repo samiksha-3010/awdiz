@@ -60,23 +60,21 @@
       background-color: rgb(108, 108, 189);
       color: white;
 
-} 
-/* #spandiv10{
-    width: 100%;
-    height: 70px;
-    border: 1px solid black;
-} */
-/* #spandiv10{
-    border: 1px solid black;
+ }
+ /* #profilesection>div{
     width: 30%;
-    height: 30px;
-    margin: auto;
-} */
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+}  */
 
+
+
+                               /* meedle  section start */
 #meedel{
     width: 35%;
     border: 1px solid black;
-    height: 500px;
+   
 }
 #navbar{
     width: 100%;
@@ -90,15 +88,112 @@
     padding-right: 10px;
     padding-left: 30px;
 }
-#navbar>div{
+#navigation{
     border: 1px solid gray;
     width: 50%;
     height: 40px;
     display: flex;
     justify-content: space-between;
-
+}
+ #navbarfirstdiv{
+    width: 100%;
+    /* border: 1px solid red;
+    height: 300px; */
+     margin-bottom: 40px;
+}
+#navbarfirstdiv>div:nth-child(1){
+width: 100%;
+height: 70px;
+border: 1px solid black;
+}
+#navbarfirstdiv>div:nth-child(1)>button{
+   margin: 20px;
+   padding-left: 20px;
+   border-radius: 20px;
+ border: none;
+ color: blue;
 
 }
+#navbarfirstdiv>div:nth-child(1)>button:hover{
+    color: skyblue;
+    background-color: rgb(133, 161, 161);
+    border: none;
+    
+}
+
+
+#navbarfirstdiv>div:nth-child(2){
+    width: 100%;
+    /* height: 90px; */
+    border: 1px solid black;
+  
+    }
+    #navbarfirstdiv>div:nth-child(2)>p{
+        padding-top: 15px;
+        font-size: 25px;
+        color:black;
+    }
+    #navbarfirstdiv>div:nth-child(2)>i{
+      
+       /* border: 1px solid black; */
+         color: blue;
+     }
+     #navbarfirstdiv>div:nth-child(2)>button{
+          width: 20%;
+          padding-bottom: 30px;
+          background-color: skyblue;
+          color: white;
+          font-size: 15px;
+          border-radius: 30px;
+          padding-left: 30px;
+     }
+     #navbarseconddiv{
+        width: 100%;
+      height: 40px;
+        /* border: 1px solid black; */
+      
+
+     }
+     #navbarseconddiv>p{
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 10px;
+     }
+     #navbarseconddiv:hover{
+        background-color: aliceblue;
+     }
+
+
+     #mainimage{
+        border: 1px solid black;
+        width: 90%;
+        height: 800px;
+        margin: auto;
+     }
+     #mainimage>img{
+        width: 90%;
+        height: 450px;
+     margin-top: 20px;
+       margin-left: 20px;
+     }
+     #image2{
+        border: 1px solid black;
+        height: 60px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+     }
+
+    /* #navbarfirstdiv>div:nth-child(3){
+        width: 100%;
+        height: 60px;
+        border: 1px solid black;
+        } */
+        
+
+                                         /* ===== start right section===== */
 #right{
     width: 25%;
     border: 1px solid black;
@@ -126,17 +221,19 @@
 }
 #rightdiv2{
     width: 90%;
-    height: 90px;
+    /* height: 90px; */
     border: 1px solid gray;
     margin: auto;
     margin-top: 20px;
     border-radius: 30px;
     align-items: center;
     background-color: gainsboro;
-}
-#rightdiv2>h4,p{
-    padding-left: 20px;
     padding-top:10px ;
+    padding-left: 20px;
+}
+#rightdiv2>h2,p{
+   padding: 20px 0px ;
+   
 }
 #rightdiv2>button{
     border-radius: 30px;
@@ -147,7 +244,6 @@
 }
  #rightdiv3{
     width: 90%;
-    /* height: 120px; */
     border: 1px solid gray;
     margin: auto;
     margin-top: 20px;
@@ -158,29 +254,102 @@
 }
 #rightdiv3>h2{
     padding-left: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-#rightdiv3>div{
-    border: 1px solid gray;
-    width: 80%;
-    height: 70px;
+#rightdiv3>button{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+#rightdivfirst{
+    /* border: 1px solid black; */
+    width: 95%;
+    height:120px ;
     margin: auto;
-    margin-top: 30px;
 }
-#rightdiv3>div:nth-child(1)p,b{
-    color: gray;
+#rightdivfirst,p{
+font-size: small;
+font-weight: 800;
+padding-left: 10x;
 }
 
+/* #rightdivfirst,h2{
+    padding-left: 60px;
 
-/* #rightdiv3>div:hover{
-    background-color: bisque;
-    color: black;
-    border: 1px solid red;
 } */
 
-
-
-
+#rightdivfirst:hover{
+  background-color: rgb(238, 229, 229);
+  color: black;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+#rightdivsecond{
+    /* border: 1px solid black; */
+    width: 95%;
+    height:120px ;
+    margin: auto;
+}
+#rightdivsecond,p{
+    font-size: small;
+    font-weight: 800;
+    padding-left: 10x;
+    }
+    #rightdivsecond:hover{
+        background-color: rgb(238, 229, 229);
+        color: black;
+        border: 1px solid gray;
+        border-radius: 10px;
+      }
+      #rightdivthird{
+        /* border: 1px solid black; */
+        width: 95%;
+        height:120px ;
+        margin: auto;
+    }
+    #rightdivthird,p{
+        font-size: small;
+        font-weight: 800;
+        padding-left: 10x;
+        }
+        #rightdivthird:hover{
+            background-color: rgb(238, 229, 229);
+            color: black;
+            border: 1px solid gray;
+            border-radius: 10px;
+          }
+          #rightdivfour{
+            /* border: 1px solid black; */
+            width: 95%;
+            height:120px ;
+            margin: auto;
+        }
+        #rightdivfour,p{
+            font-size: small;
+            font-weight: 800;
+            padding-left: 10x;
+            }
+            #rightdivfour:hover{
+                background-color: rgb(238, 229, 229);
+                /* color: black; */
+                border: 1px solid gray;
+                border-radius: 10px;
+              }
+        #rightdivsix{
+            
+              width: 80%;
+              height:70px ;
+              margin: auto;
+        }
+        #rightdivsix,h6{
+       font-size: 15px;
+      padding-left: 20px;
+       padding-top: 20px;
+         color: blue;
+        }
+    
+    #rightdivsix:hover{
+        background-color: aliceblue;
+    }
 #rightdiv4{
     width: 90%;
     /* height:px; */
@@ -191,8 +360,6 @@
     align-items: center;
     background-color: gainsboro;
 }
-
-
 #rightdiv4>h2{
     padding-left: 20px;
     padding-top:10px 
