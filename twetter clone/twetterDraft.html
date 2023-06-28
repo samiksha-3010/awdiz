@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/5cd5307fb0.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drafts</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #screen{
+            width: 40%;
+            border: 1px solid gray;
+            margin: auto;
+        }
+        #navbar{
+            width: 100%;
+            height: 50px;
+            display: flex;
+        }
+         #child{
+            width: 5%;
+            height: 70%;
+            border-radius: 100px;
+            margin-left: 15px;
+            margin-top: 10px;
+         }
+         #child>i{
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+            #child:hover{
+                background-color: #f7f9f9;
+            }
+            #drafts{
+                width: 70%;
+                height: 40px;
+                
+            }
+            #drafts>h2{
+                padding-left: 100px;
+                padding-top: 10px;
+            }
+            #navigation{
+                width: 100%;
+                height: 70px;
+                display: flex;
+             border-bottom: 1px solid gray;
+
+            }
+        
+            #navigation>div{
+                width: 100%;
+            }
+            #navigation>div:hover{
+                background-color:#f7f9f9;
+            }
+            #navigation>div>h4{
+                padding-top: 30px;
+                padding-left:20px ;
+            }
+            #image{
+                width: 50%;
+                margin: auto;
+                height: 500px;
+            }
+            #image>h2{
+             padding-left: 30px;
+            }
+            #image>p{
+                color: gray;
+            }
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="navbar">
+            <div id="child">
+                <i class="fa-solid fa-arrow-left"></i>
+             
+            </div>
+            <div id="drafts">
+                <h2>Drafts</h2>
+            </div>
+           
+
+        </div>
+        <div id="navigation">
+            <div><h4>Unsent Tweets</h4></div>
+            <div> <h4>Sheduled</h4></div>
+        </div>
+
+        <div id="image">
+           <img style="width: 100%; height: 300px;" src="https://abs.twimg.com/responsive-web/client-web/alarm-clock-800x400.v1.6c5b3fe9.png"/>
+             <h2>Hold that thought</h2>
+             <p>Not ready to send a Tweet just yet?
+                 Save it to your drafts or 
+                 schedule it for later.</p>
+
+            <div></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
