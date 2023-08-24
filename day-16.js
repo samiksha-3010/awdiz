@@ -61,22 +61,22 @@
 //     }
      
 // Q. Print number from 10 -1; 
-for(var i= 10; i >= 1;i --){
-    console.log(i)
-}
+// for(var i= 19; i >= 1;i --){
+//     console.log(i)
+// }
 
-for(var i= 100;i >=54; i -- ){
-    console.log(i)
-}
-for(var i= 100;i >= 1; i=i -2){
-    console.log(i)
-}
-for(var i=1000;i >=1; i=i -10 ){  
-console.log(i)
-}
-for(var i= 1000/2;i >=1; i=i -10){
-    console.log(i)
-}
+// for(var i= 100;i >=54; i --){
+//     console.log(i)
+// }
+// for(var i= 100;i >= 1; i=i -2){
+//     console.log(i)
+// }
+// for(var i=1000;i >=1; i=i -10 ){  
+// console.log(i)
+// }
+// for(var i= 1000/2;i >=1; i=i -10){
+//     console.log(i)
+// }
 var remote =[ "s" , 'b', "p", "c", "y", 87, 987,true ];
 
 console.log (remote[0])
