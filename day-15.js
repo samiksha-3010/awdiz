@@ -101,3 +101,89 @@
 //  <> < = > =
 
 
+
+
+// Question 1. Find the  user age is greter than 19 or not. 
+
+var userAge = 20;
+// console.log(userAge > 19)
+
+if (userAge > 19) {
+    console.log("You are allowed for the  Drving Liecence.")
+} else {
+    console.log("You are not allowed for the  Drving Liecence.")
+}
+
+// Qusstion  2. Find user age is greter than 19 and lesser than 90 or not .
+
+var userAge = 10;
+if(userAge > 19 && userAge < 90){
+    console.log(" youe is a greater than 19 and lesser than 90 you are allow for Lieceance")
+}else{
+    console.log("Your age is a might be leeser than 19 and more than 90")
+}
+
+// Qustion  3. Find user age is greter than 19 and lesser than 90  then "allow for Driving Liecence" ,
+// if age is lesser than 19 then return "you are under age" ,
+// if age more than 90, then return "Your age is over",
+// if age is 19 then return " you are allow for Learning Liencance."
+
+var userAge = 19;
+if(userAge > 19 && userAge < 90){
+    console.log("You are Allowd")
+}else if(userAge < 19){
+    console.log("You are under age")
+}else if(userAge >= 19){
+    console.log("Your age is over")
+}else{
+    console.log("you are allow for Learning Liencance.")
+}
+
+var material = "steel";
+
+switch (material) {
+    case "steel":
+        console.log("Material is steel")
+        break;
+    case "copper":
+        console.log("Material is copper")
+        break;
+    case "plastic":
+        console.log("Material is plastic")
+        break;
+    default:
+        console.log("Material is not defined.")
+        break;
+}
+
+
+var myData = ["Samiksha", 25, true, "Hii", 23456, [1, 2, 3]]
+console.log(myData)
+console.log(myData.length)
+console.log(myData[0])
+console.log(myData[1])
+console.log(myData[2])
+console.log(myData[3])
+console.log(myData[4])
+console.log(myData[5])
+console.log(myData[5][0])
+
+  // push pop method 
+//   push add the Element end of array
+// pop remove last element
+
+
+var student = ['jay', 'raj', 'abc'];
+
+console.log(student)
+
+student.push("samiksha") 
+
+console.log(student)
+
+
+var number = [1, 2, 4, 5]
+number.pop(); 
+number.pop();
+number.pop();
+console.log(number)
