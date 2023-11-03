@@ -89,28 +89,3 @@
 //     console.log(remote[i])
 //  }
 
-
-var fruits = ["orange", "banana", 'carrot', "papaya", "grapes"]
-
-fruits.shift(); // it removes first element of array
-fruits.shift();
-fruits.shift();
-console.log(fruits)
-
-
-var numbers = [10, 22, 42, 51, 63, 73, 84];
-numbers.unshift(87,76)
-numbers.unshift(10) // it adds element to start of an array
-console.log(numbers)
-
-for(var i = 10 ; i <= 25; i++){
-    console.log(i)
-}
-
-for (var i = 10; i < 100; i += 20) {
-    console.log(i)
-}
-
-for (var i = 1; i <= 10; i++) { 
-    console.log(i) 
-}
