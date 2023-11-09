@@ -62,14 +62,14 @@
 // console.log(student1);
 // console.log();
 
-function shopping( cloth, fruits,furniture){
-    this.cloth = cloth;
-    this.fruits = fruits;
-    this.furniture = furniture;
-}
-const person1 = new shopping('frocksuits', 'mango','table');
-console.log(person1);
-console.log();
+// function shopping( cloth, fruits,furniture){
+//     this.cloth = cloth;
+//     this.fruits = fruits;
+//     this.furniture = furniture;
+// }
+// const person1 = new shopping('frocksuits', 'mango','table');
+// console.log(person1);
+// console.log();
 
 // var res = []; // 1, 2,3,4
 // var nums = [2,2,2,3,3,4,4,6,6,9];
@@ -134,5 +134,18 @@ console.log();
 // console.log(Math.floor(3.7941411198316493))
 
 // 4.00
+
+
+function find(number){
+if(number%2==0){
+    return "number even"
+
+}else if(number==10){
+return "number is 10 "
+}else
+    
+}
+
+console.log(find)
 
 

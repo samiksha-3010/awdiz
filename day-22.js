@@ -45,11 +45,10 @@
 // Q .  Find two numbers from given array which addtion is equl to target
 //  var array = [2, 345, 56, 78, 34, 67, 4, 76, 34, 64, 34, 767];
 
-
 // var target = 105;
 // var array2 = [23, 345, 565, 65, 40, 40]
 
-// // 4 76
+//  4 76
 
 //  function additionOfNumbers(Samiksha, Somesh){ 
     // console.log (Samiksha,Somesh, "Inside function")
@@ -68,22 +67,19 @@
 //     // typesof()
 
 
-// var num1  = 1234;
-// var num2  = 9876;
-// function addition(num1,num2){
-
-// }
-// addition(num1 , num2)
+var num1  = 1234;
+var num2  = 9876;
+function addition(num1,num2){
+}
+addition(num1 , num2)
 
 // Q. Find subtraction of give two numbers by using function. 
 
-var number1 = 9876;
-var number2 = 5678;
-function subtraction(){
-    console.log (num1  - num2)
-
-}
-
+// var number1 = 9876;
+// var number2 = 5678;
+// function subtraction(){
+//     console.log (num1  - num2)
+// }
 // // function additionOfNumbers(9876, 5678){
 // var sub = num1  - num2
 // console.log(num1 + num2 )
