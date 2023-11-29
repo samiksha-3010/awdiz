@@ -106,11 +106,11 @@ outerFuncation();
 
 
 
-// const  res = outerFuncation();
-// console.log(res());
+const  res = outerFuncation();
+console.log(res());
 
 
 
 // secret - res ke under function store hoga with varible call myMarks
 
-// console.log(res())
+console.log(res())
