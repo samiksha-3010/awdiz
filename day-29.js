@@ -45,6 +45,7 @@ for(var i="samiksha"; i<10;i++){
     for (var j="samiksha"; j<10;j++){
        totalName +=10 
     }
+}
 
 console.log("totalName");
 

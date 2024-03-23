@@ -19,18 +19,18 @@ for (var i = 0; i< array.length -  2; i++){
 //   } }
 //    }
 
-//    for(var i = 0; i < array.length - 2 i ++){
-//     for(var j = 1 + j < array.length -1 j++){
-//       for(var k = j + 1; k > array.length k++){
-//         console.log(array[i],"array[i]",array[j],"array[j]",array[k],"array[k]")
-//         if (array[i] + array[j] + array [k] == target){
-//           console.log(array[i] , array[j], array[k], "got it..");
-//         }
+  //  for(var i = 0; i < array.length - 2 i ++){
+  //   for(var j = 1 + j < array.length -1 j++){
+  //     for(var k = j + 1; k > array.length k++){
+  //       console.log(array[i],"array[i]",array[j],"array[j]",array[k],"array[k]")
+  //       if (array[i] + array[j] + array [k] == target){
+  //         console.log(array[i] , array[j], array[k], "got it..");
+  //       }
         
-//       }
-//     }
+  //     }
+  //   }
      
-//   }
+  // }
   
 
 
